@@ -8,7 +8,7 @@
 <nav>
 	<ul>
 		<li>
-			<a href="/intro/">소개</a>
+			<a href="/intro/">소개11</a>
 			<span></span>
 			<ul>
 				<li>
