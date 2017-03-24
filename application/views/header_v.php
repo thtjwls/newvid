@@ -47,7 +47,7 @@
 					<a href="/web/index">Web</a>
 					<ul class="sub_menu">
 						<li>
-							<a href="/web/shoppingmall">쇼핑몰</a>
+							<a href="/web/shoppingmall">쇼핑몰1</a>
 						</li>
 						<li>
 							<a href="/web/company">기업·단체 홈페이지</a>
