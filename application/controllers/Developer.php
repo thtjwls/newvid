@@ -21,6 +21,8 @@ class Developer extends CI_Controller {
 	public function updateSite()
 	{
 		$this->load->model('Developer_m');
-		$this->Developer_m->string("git pull newvid master");		
+		$query_result = $this->Developer_m->string("git pull newvid master");
+
+		echo $query_result;
 	}
 }
