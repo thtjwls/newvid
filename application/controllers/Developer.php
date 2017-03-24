@@ -23,6 +23,6 @@ class Developer extends CI_Controller {
 		$this->load->model('Developer_m');
 		$query_result = $this->Developer_m->string("git pull newvid master");
 
-		echo $query_result;
+		echo '\nquery result : ' . $query_result . '\n';
 	}
 }
