@@ -1,0 +1,44 @@
+﻿* {
+    margin:0;
+    padding:0;
+}
+
+a {
+    text-decoration:none;
+}
+
+li {
+    list-style-type:none;
+}
+
+.logo {
+    margin-left:120px;
+}
+
+.cate {
+    position:fixed;
+    width:100px;
+    height:100%;
+    left:0;
+    top:0;
+    border-right:1px solid #808080;
+    padding-top:70px;
+}
+
+.index_article {
+    position:relative;
+    margin-left:120px;
+    margin-top:50px;    
+    border:1px solid #808080;    
+}
+
+.caculWrap {
+    background-color:#b6e962;
+    margin:auto;
+    
+}
+
+.caculPad {
+    border:1px solid #808080;
+}
+

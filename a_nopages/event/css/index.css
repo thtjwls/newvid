@@ -1,0 +1,156 @@
+﻿* {
+    margin:0;
+    padding:0;
+    font-family:"나눔고딕",NanumGothic;
+}
+
+.wrap {
+    width:800px;
+    margin:auto;
+    padding-top:20px;
+}
+
+a {
+    text-decoration:none;    
+}
+
+#cate1Form {
+
+}
+
+.ta_caption {
+    color:#808080;
+    border:3px dotted #808080;
+    padding:10px 0;    
+    margin:10px 0;
+}
+
+#lotsForm table {
+    border-top:1px solid #808080;
+    border-left:1px solid #808080;
+    width:100%;
+}
+
+#lotsForm th {
+    text-align:right;    
+    color:#5b5b5b;
+    font-weight:500;
+}
+
+#lotsForm th, #lotsForm td {
+    border-bottom:1px solid #808080;
+    border-right:1px solid #808080;
+    padding:10px;
+}
+
+.submitBtn {
+    width:80%;
+    height:50px;
+}
+
+#lotsForm th input,#lotsForm td input {
+    padding:10px 20px;
+}
+
+#lotsForm td select {
+    padding:10px 20px;
+}
+
+.submitBtn_td {
+    text-align:center;
+}
+
+.submitBtn_td input[type=button] {
+    font-size:16px;
+    font-weight:500;
+}
+
+.helperSpan {
+    font-size:14px;
+    display:none;
+}
+
+.appendUser {
+    margin-top:20px;
+}
+
+.appendUser table {
+    width:800px;
+    border-top:1px solid #808080;
+    border-left:1px solid #808080;
+}
+
+.appendUser table td,.appendUser table th {
+    border-right:1px solid #808080;
+    border-bottom:1px solid #808080;    
+    padding:10px;
+}
+
+.appendUser td:last-child {
+    text-align:center;
+}
+
+.appendUser td:last-child button {
+    padding:5px;
+}
+
+.lotsActBtn {
+    text-align:right;
+}
+
+.lotsActBtn input[name=lotsUserCnt] {
+    width:50px;
+    padding:3px;
+    margin-left:10px;
+}
+
+.lotsA {
+    position:absolute;
+    width:400px;     
+    top:10%;
+    left:5%;    
+    display:none;
+    background-color:#f85ad3;
+    padding:10px;
+}
+
+.lotsA table {
+    width:100%;
+    background-color:#75e14a;
+}
+
+.lotsA caption {
+    margin-bottom:30px;
+    border:5px dashed #4cff00;
+    font-weight:500;
+    color:#FFF;
+    padding:10px;
+}
+
+#lotsATable td {
+    text-align:center;
+    color:#FFF;
+    padding:10px;
+}
+
+.ExcelDownload {
+    text-align:center;
+    margin:5px 0;
+}
+
+.ExcelDownload a {
+    color:#FFF;
+    text-align:center;        
+}
+
+.ExcelDownload a:hover {
+    color:#4cff00;
+}
+
+#ExportExit {
+    text-align:right;
+}
+
+.lotsActBtn button {
+    padding:5px;
+}

@@ -1,0 +1,223 @@
+﻿* {
+    margin:0;
+    padding:0;
+}
+
+html {
+    
+}
+
+a {
+    text-decoration:none;
+}
+
+li {
+    list-style-type:none;
+}
+
+img {
+    border:0;
+}
+
+ul {
+    
+}
+
+.wrap {
+    width:800px;
+    margin:auto;
+}
+
+.contents {
+
+}
+
+.contents table {
+    border-top:1px solid #808080;
+    border-left:1px solid #808080;
+    width:100%;    
+}
+
+.contents th, .contents td {
+    border-bottom:1px solid #808080;
+    border-right:1px solid #808080;
+    height:30px;
+    text-align:center;
+}
+
+.contents td {
+    height:50px;
+}
+
+.contents input[type=text] {
+    border:0;
+    width:90%;
+    height:90%;
+}
+
+.contents input[type=button] {
+    padding:10px;
+
+}
+
+.contents input[type=text]:active {
+   
+}
+
+.show {
+    margin-top:20px;
+}
+
+.show caption {
+    padding:10px;
+    margin:5px;
+}
+
+.show table {
+    width:800px;
+    border-top:1px solid #808080;
+    border-left:1px solid #808080;
+}
+
+.show th, .show td {
+    text-align:center;
+    padding:5px;
+    border-right:1px solid #808080;
+    border-bottom:1px solid #808080;
+}
+
+.totalCost input {
+    padding:10px;
+}
+
+#totalTime {
+    width:50px;
+    background-color:#808080;
+    color:#FFF;
+}
+
+#inputfunc {
+    width:80%;    
+    margin:10px;
+    font-size:1em;
+    font-weight:500;
+}
+
+#TotalCoat {
+    padding:20px;
+}
+
+.reset input {
+    padding:20px;
+}
+
+#ListDel {
+    padding:10px;
+}
+
+#ListDelBtn {
+    width:50px;
+    height:50px;    
+    border-radius:50px;
+}
+
+#ListDelBtn:hover {
+    background-color:#ff0000;
+    color:#FFF;
+    border:2px solid #FFF;
+}
+
+
+/* timepicki*/
+
+/* 
+Created on: 17 Sep, 2014, 4:29:37 PM
+Author: senthil
+*/
+
+.ti_tx,
+.mi_tx,
+.mer_tx {
+	width: 100%;
+	text-align: center;
+	margin: 10px 0;
+}
+
+.time,
+.mins,
+.meridian {
+	width: 60px;
+	float: left;
+	margin: 0 10px;
+	font-size: 20px;
+	color: #2d2e2e;
+	font-family: arial;
+	font-weight: 700;
+}
+
+.prev,
+.next {
+	cursor: pointer;
+	padding: 18px;
+	width: 28%;
+	border: 1px solid #ccc;
+	margin: auto;
+	background: url(../images/arrow.png) no-repeat;
+	border-radius: 5px;
+}
+
+.prev:hover,
+.next:hover {
+	background-color: #ccc;
+}
+
+.next {
+	background-position: 50% 150%;
+}
+
+.prev {
+	background-position: 50% -50%;
+}
+
+.time_pick {
+	position: relative;
+}
+
+.timepicker_wrap {
+	padding: 10px;
+	border-radius: 5px;
+	z-index: 998;
+	display: none;
+	box-shadow: 2px 2px 5px 0 rgba(50,50,50,0.35);
+	background: #f6f6f6;
+	border: 1px solid #ccc;
+	float: left;
+	position: absolute;
+	top: 27px;
+	left: 0;
+}
+
+.arrow_top {
+	position: absolute;
+	top: -10px;
+	left: 20px;
+	background: url(../images/top_arr.png) no-repeat;
+	width: 18px;
+	height: 10px;
+	z-index: 999;
+}
+input.timepicki-input {
+	background: none repeat scroll 0 0 #FFFFFF;
+    	border: 1px solid #CCCCCC;
+    	border-radius: 5px 5px 5px 5px;
+    	float: none;
+    	margin: 0;
+    	text-align: center;
+    	width: 70%;
+}
+a.reset_time {
+	float: left;
+	margin-top: 5px;
+	color: #000;
+}
+/* timepicki end*/

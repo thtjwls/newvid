@@ -22,7 +22,7 @@ nav.path_nav ul li a {
 	-moz-transition-duration: 0.3s;
 	-o-transition-duration: 0.3s;
 	background-image: url(/images/path_boolet.png);		
-	background-color: blue;
+	background-color: #B2B2B2;
 	color: #FFF;
 }
 
@@ -36,10 +36,4 @@ nav.path_nav ul li:last-of-type a {
 
 nav.path_nav ul li a:hover {
 	background-color: #fe0908;
-}
-
-.contents {
-	width: 1100px;
-	margin:auto;
-	background: blue;
 }

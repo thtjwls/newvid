@@ -1,0 +1,138 @@
+﻿ #login_text h1 {
+        color: #717173;
+        border-bottom: 5px solid #ed4c20;
+        font-weight: 500;
+        width: 80px;
+        font-size:22px;
+        padding-bottom:2px;
+    }
+
+    #login_text {
+        border-bottom: 1px solid #dedede;
+        width: 900px;
+    }
+
+    .login_form_input {
+        width: 450px;
+        height: 300px;
+        float: left;
+    }
+
+    #login_form_text_id {
+        position:absolute;
+        top:62px;
+        left:25px;
+    }
+
+    #login_form_text_pass {
+        position:absolute;
+        top:134px;
+        left:25px;
+    }
+        
+     .login_form_id {
+         width: 420px;
+         height: 50px;
+         margin-top: 47px;
+       
+      }
+
+    .login_form_pass {
+        width:420px;
+        height:50px;
+        margin-top:23px;
+    }
+    
+     .login_form_input input[type=button] {
+        width: 395px;
+        height: 60px;
+        border: 0;
+        color: #FFF;
+        background-color: #f04c26;
+        border-radius: 8px;
+        margin-left:25px;
+        margin-top:35px;
+    }
+
+    .login_form_input input[type=text] {
+        height: 48px;
+        width: 250px;
+        border: 1px solid #d0d0d0;
+        float:right;
+        padding-left:10px;
+        font-size:16px;
+    }
+
+    .login_form_input input[type=password] {
+        width: 250px;
+        height: 48px;
+        border:1px solid #d0d0d0;
+        float:right;
+        padding-left:10px;
+        font-size:16px;
+    }
+
+    .login_form_search {
+        width: 450px;
+        height: 300px;
+        float: left;
+    }
+
+    .login_form_search p {
+        width : 400px;
+        height: 50px;
+        border-bottom : 1px solid #e6e6e6;
+        font-size:16px;
+        line-height:35px;
+     }
+
+    .login_form_search span {
+        border: 1px solid #e4e4e4;
+        font-size:16px;
+        float:right;
+        width : 122px;
+        height:25px;
+        text-align:left;
+        margin-top:3px;
+        line-height:25px;
+        padding-left:10px;
+    }
+
+    .login_form_search span img {
+        float:right;
+        padding-top:4px;
+        padding-right:4px;
+        
+    }
+
+    
+
+    .inner_login_form {
+        border: 1px solid #bfbfbf;
+        margin-top: 40px;
+        width: 900px;
+        height: 300px;
+        font-size:16px;
+        position:relative;
+    }
+
+    .meber_add_nav {
+        width:400px;
+        height:50px;
+        margin-top:50px;
+        margin-left:35px;
+    }
+
+    .member_id_search {
+        width:400px;
+        height:50px;
+        margin-left:35px;
+        margin-top:28px;
+    }
+
+    .member_pass_search {
+        width:400px;
+        height:50px;
+        margin-left:35px;
+        margin-top:28px;
+    }

@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>공용자원신청서</title>
+    <link href="css/1_4_selector_train.css" rel="stylesheet" />
+</head>
+<body>
+    <form action="control/trainInsert.php" method="post">
+        <div id="wrap">
+            <fieldset>
+                <legend>공용자원신청서</legend>
+                <ul>
+                    <li>
+                        <label for="applyPart">신청자부서</label>
+                        <input id="applyPart" type="text" name="applyPart" title="신청부서입력" />
+                    </li>
+                    <li>
+                        <label for="applyName">신청자이름</label>
+                        <input id="applyName" type="text" name="applyName" title="신청인임력" />
+                    </li>
+                    <li>
+                        <label for="selectRe">공용자원선택</label>
+                        <select id="selectRe" name="selectRe">
+                            <option>SI</option>
+                            <option>SM</option>
+                            <option>PM</option>
+                            <option>SL</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="useDate">사용시작일</label>
+                        <input id="useDate" type="date" name="useDate" />
+                    </li>
+                    <li>
+                        <label for="useEndDate">사용종료일</label>
+                        <input id="useEndDate" type="date" name="useEndDate" />
+                    </li>
+                    <li>
+                        <input id="replyMe" type="checkbox" name="replyMe" />
+                        <label for="replyMe">이 신청의 응답을 나에게 보냅니다.</label>
+                    </li>
+                    <li>
+                        <input type="submit" value="신청" />
+                        <input type="reset" value="취소" />
+                    </li>
+                </ul>
+            </fieldset>
+        </div>
+    </form>
+</body>
+</html>

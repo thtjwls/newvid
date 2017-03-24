@@ -1,0 +1,186 @@
+﻿/*
+#contents_div h3 {
+	color : #6e6e6e;
+	font-size : 18px;
+	font-family : 'Nanum Barun Gothic', dotum, 돋움, sans-serif;
+	font-weight : bolder;
+	border-bottom : 1px solid #A09F9F;
+	padding-bottom  : 15px;
+}
+
+#user_add_table {
+	width : 100%;
+	margin-left: 110px;
+}
+
+.add_header {
+	font-size : 14px;
+	font-weight : bolder;
+	width : 120px;
+	text-align : left;
+}
+
+#user_add_table > input {
+	width : 150px;
+}
+.user_add_address {
+	width : 318px;
+	height : 25px;
+	margin-left : 25px;
+}
+
+.user_add_input, .user_add_email {
+	float : left;
+	width : 150px;
+	height : 25px;
+	margin-left : 25px;
+}
+
+#user_add_table td {
+	height : 50px;
+}
+#user_add form input {
+	height : 50px;
+}
+
+.add_header input {
+	
+}
+
+.form_confirm {
+	font-size : 12px;
+	color : #0c6bb5;
+	margin-top : 5px;
+	margin-bottom : 5px;
+	border : 1px solid green;
+}
+
+#email2 {
+	margin-left : 0px;
+}
+
+#hp2, #hp3 {
+	width : 100px;
+	height : 25px;
+}
+
+#hp1 {
+	margin-left : 25px;
+	height : 32px;
+	width: 90px;
+	text-align : center;
+}
+
+#id { 
+	margin-top : 5px;
+}
+
+.add_confirm {
+    width: 80px;
+    height: 40px;
+    margin-right: 390px;
+}
+
+#button {
+	border : 0px;
+	width  : 80px;
+	margin : 5px;
+	height : 40px;
+	border-radius : 5px;
+	background-color : #0c6bb5;
+	color : #ffffff;
+}
+
+#user_reset {
+	border : 0px;
+	width  : 80px;
+	margin : 5px;
+	height : 40px;
+	border-radius : 5px;
+	background-color : #A09F9F;
+	color : #ffffff;
+}
+
+
+
+*/
+
+#contents_div {
+	font-family : 'Nanum Barun Gothic', dotum, 돋움, sans-serif;
+}
+
+#contents_div h3 {
+	color : #6e6e6e;
+	font-size : 16px;
+	font-weight : bolder;
+	border-bottom : 1px solid #A09F9F;
+	padding-bottom  : 15px;
+}
+
+#user_add_table th {
+	font-size : 14px;
+	padding-right : 25px;
+	text-align : left;
+
+}
+
+#user_add_table input {
+	height : 28px;
+	margin : 0px;
+}
+
+#user_add_table select {
+	height : 33px;
+}
+
+#user_add_table div {
+	margin : 0px;
+	padding-bottom : 10px;
+	padding-top : 10px;
+}
+
+#user_add_table p {
+	font-size : 12px;
+	color : #0c6bb5;
+}
+
+#th_id {
+	vertical-align : top;
+	padding-top : 17px;
+}
+
+#th_pass2 {
+	vertical-align : top;
+	padding-top : 17px;
+}
+
+#th_pass {
+	vertical-align : top;
+	padding-top : 17px;
+}
+
+#add_button {
+	margin : auto;
+	margin-top : 25px;
+	text-align : center;
+}
+
+#button {
+	border : 0px;
+	width  : 80px;
+	margin : 5px;
+	height : 40px;
+	border-radius : 5px;
+	background-color : #ef4b23;
+	color : #ffffff;
+}
+
+#user_reset {
+	border : 0px;
+	width  : 80px;
+	margin : 5px;
+	height : 40px;
+	border-radius : 5px;
+	background-color : #1e1e21;
+	color : #ffffff;
+}

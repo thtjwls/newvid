@@ -1,0 +1,59 @@
+* {
+    font-family:"³ª´®°íµñ", "NanumGothic", "ngeot", "µ¸¿ò", "DotumChe", "Dotum";
+}
+body {
+    margin:0;
+}
+
+.docu_wrap {
+	width :	1150px;
+	height :500px;
+    font-size:18px;
+}
+
+.docu_wrap header {
+    padding:20px;
+    font-size:18px;
+    font-weight:600;
+}
+
+input {
+    width : 200px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left:10px;
+    font-size:14px;
+}
+
+select {
+    width : 200px;
+    height:40px;
+    margin-left:10px;
+}
+
+input[type=button], input[type=reset]{
+    width : 150px;
+    border : 0;
+    color:#FFF;
+}
+
+.docu_default_btn {
+    float:right;
+}
+
+input[type=button] {
+    
+}
+
+
+
+.docu_write_form {
+    border-top: 1px solid black;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-bottom: 1px solid black;
+}
+
+.docu_write_form div {
+    padding-left:20px;
+}

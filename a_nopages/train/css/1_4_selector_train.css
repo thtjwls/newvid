@@ -1,0 +1,33 @@
+﻿#wrap{max-width:460px; margin:0 auto;} /*max-width:460px; 최대넓이 460px 까지로 한다 반응형에서 중요*/
+#wrap fieldset{border-color:aquamarine; border-radius:10px;}
+#wrap fieldset legend{border-radius:5px; background-color:#0cf; color:white; font-weight:bold; padding:5px;}
+#wrap ul{padding:0; list-style:none;}
+#wrap ul li{margin-bottom:15px; font-size:14px;}
+#wrap ul li:last-child{text-align:right;}
+#wrap ul li input{vertical-align:middle; padding:5px 10px;} /*vertical-align:middle; 수직정렬 padding:5px 10px;인풋안의 여백*/
+#wrap ul li input,
+#wrap ul li input[type='password'],
+#wrap ul li select{
+    background-color:white;
+    transition-duration:1s;
+    -ms-transition-duration:1s;
+    -webkit-transition-duration:1s;
+    -moz-transition-duration:1s;
+    -o-transition-duration:1s;
+    transition-property:background-color;
+}
+
+#wrap ul li input:focus,
+#wrap ul li select:hover{background-color:#0cf;}
+
+#wrap ul li input[type='checkbox']+label{
+    padding:5px 5px 5px 0;
+    background-color:white;
+    transition-duration:1s;
+    -ms-transition-duration:1s;
+    -webkit-transition-duration:1s;
+    -moz-transition-duration:1s;
+    -o-transition-duration:1s;
+
+}
+#wrap ul li input[type='checkbox']:checked +label{background-color:#0cf; border-radius:5px; color:white; font-size:12px; padding:5px;}

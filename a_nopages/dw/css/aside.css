@@ -1,0 +1,39 @@
+﻿aside {
+    width :70px;
+    position:fixed;
+    height : 100%;
+    background-color:#ef4b23;
+    z-index:10;
+}
+
+.aside_inner_back {
+    position:relative;
+    background-color:#1e1e21;
+    height : 600px;
+    margin-top: 150px;
+}
+
+.aside_inner_back ul {
+    text-align:center;
+    height:450px;
+    padding-top:50px;
+}
+
+.aside_inner_back ul li {
+    border-bottom:1px solid #FFF;
+    width:53px;
+    height : 73px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:15px;
+}
+
+
+.aside_inner_back ul p {
+    color : #FFFFFF;
+    font-size:12px;
+}
+
+.aside_inner_back ul li:last-child {
+    border-bottom : 0;
+}

@@ -1,0 +1,14 @@
+﻿@import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
+
+*:not(.fa):not(.glyphicon) {
+    font-family: 'Noto Sans KR', 'Nanum Barun Gothic', sans-serif;
+}
+
+.border-radius-0 {border-radius:0 !important;}
+a {cursor:pointer;}
+th,td {text-align:center;}
+.float-none { float:none !important;}
+.float-left { float:left !important;}
+.width-100 { width:100% !important;}
+.margin-left-5 { margin-left:5px; }
+.margin-right-5 { margin-right:5px; }

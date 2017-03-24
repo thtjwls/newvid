@@ -1,0 +1,261 @@
+		body {
+			font-family: "나눔고딕";
+			background-color:#ffffff;
+			margin:0px;
+
+		}
+
+		#logo {
+			width : 170px;
+			height : 45px;
+			margin-left: 450px;
+			margin-bottom : 40px;
+		}
+		#top_menu{
+			height:28px;
+			background-color:#9cc3d3;
+			font-size:14px;
+			margin:auto;
+			width:auto;
+			vertical-align:middle;	
+			text-align:center;
+			padding-top:2px;
+
+		}
+
+		#top_menu a:active {color:#ffffff;}  /* selected link */
+		#top_menu a:link {color:#ffffff;}
+		#top_menu a:visited {color:#ffffff;}  /* visited link */
+		#top_menu a:hover {color:#ffffff;}  /* mouse over link */
+		
+		#footer_bar a:active {color:#ffffff;}  /* selected link */
+		#footer_bar a:link {color:#ffffff;}
+		#footer_bar a:visited {color:#ffffff;}  /* visited link */
+		#footer_bar a:hover {color:#ffffff;}  /* mouse over link */
+
+		a:active {color:black;}  /* selected link */
+		a:link {color:black;}
+		a:visited {color:black;}  /* visited link */
+		a:hover {color:black;}  /* mouse over link */
+
+		#menu_list {
+			width : 900px;
+			margin : auto;
+		}
+
+		#index_menu {
+			text-align:center;
+		}
+
+		#menu_list img {
+			border:0px;
+		}
+
+		
+		#login p{
+			display : inline;
+			color : #939588;
+			font-size : 11px;
+		}
+
+		#login_box {
+			width:800px;
+			margin:auto;
+		}	
+
+		#login{
+			float:right;
+		}	
+
+		#top_layout {
+			width : auto;
+			height : 30px;
+			border-bottom : 1px solid #e8e8e8; 
+		}
+
+		#contents{
+			width:800px;
+			margin:auto;
+			background-color: white;
+			overflow : hidden;
+			border : 0px;
+		}
+
+		#contents_if {
+			width : 800px;
+			height : 800px;
+			border : 0px;
+		}
+
+		#footer_bar{
+			width : 100%;
+			height : 35px;
+			background-color:#8C8C8C;
+			float : left;
+		}
+
+		#footer_bar ul li{
+			display : inline;
+			margin : 10px;
+		}
+
+		#footer_bar ul {
+			margin-top : 10px;
+			padding-top : 10px;
+			width : 800px;
+			margin : auto;
+		}
+		
+		#top_section td {
+			text-align:center;
+			padding-top:5px;
+		}
+
+		#top_section {
+			width:800px;
+			margin:auto;
+		}
+
+		.second_top {
+			border-bottom : 1px solid #e8e8e8;
+			height : 20px;
+			margin : 0px;
+			padding-bottom:10px;
+		}
+
+		.second_top #sub_menu1 {
+			text-align:center;
+			margin-left:470px;
+			width:300px;
+			font-size:13px;
+			padding-top:5px;
+			display:none;
+		}
+
+		.second_top #sub_menu2 {
+			text-align:center;
+			margin-left:580px;
+			width:300px;
+			font-size:13px;
+			padding-top:5px;
+			display:none;
+		}
+
+
+		footer {
+			margin-top : 15px;
+			margin-left : 15px;
+			font-family : "나눔고딕";
+			font-size : 12px;
+		}
+
+		footer li {
+			list-style-type:none;
+			margin : 5px;
+		}
+
+
+		#notice {
+			width : 300px;
+			height: 200px;
+			overflow : hidden;
+			float : left;
+		}
+
+		#plan {
+			width : 300px;
+			height: 200px;
+			overflow : hidden;
+			float : left;
+			margin-left : 30px;
+		}
+
+		#photo {
+			width: 633px;
+			margin-top: 20px;
+			overflow: hidden;
+			float : left;
+		}
+
+		#notice_plan {
+			margin-top :20px;
+			overflow : hidden;
+			width : 632px;
+			float : left;
+		}
+
+		#link {
+			overflow : hidden;
+		}
+
+		.text_header {
+			border-left : 3px solid #58595b;
+			border-bottom : 1px solid #58595b;
+			padding-left : 5px;
+		}
+
+		#notice_day {
+			font-size : 12px;
+			color : #BDBDBD;
+		}
+
+		#notice_subject {
+			font-size : 12px;
+		}
+
+		p {
+			white-space:nowrap;
+		}
+
+		.more {
+			color: #BDBDBD;
+			font-size: 10px;
+			float:right;
+			padding-top:3px;
+		}
+
+		img {
+			border : 0px;
+		}
+
+		a {
+			text-decoration : none;	
+		}
+		
+		.index_photo {
+			width : 200px;
+			height : 190px;
+			float : left;
+			margin-left : 6px;
+			margin-bottom : 15px;
+		}
+		
+		.img_text_regist_day {
+			margin : 0px;
+			font-size : 12px;
+		}
+
+		.img_text_div p {
+			font-size : 12px;
+		}
+
+		.img_text_subject {
+			margin: 0px;
+		}
+
+		.img_text_div {
+			padding-left : 5px;
+		}
+
+		.right_banner {
+			width : 163px;
+			float : right;
+			margin-top : 35px;
+			height : 300px;
+			position : 
+		}
+
+		.notice_list {
+			margin-top:5px;
+			margin-bottom : 5px;
+		}

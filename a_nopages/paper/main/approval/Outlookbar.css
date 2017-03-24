@@ -1,0 +1,33 @@
+A  {
+	font-family : ±¼¸²;
+	font-size : 13px;
+	text-decoration : none;
+	font-weight : bold;
+}
+
+A:Hover  {
+	font-family : ±¼¸²;
+	font-size : 13px;
+	text-decoration : underline;
+}
+
+A.OutlookBar  {
+	font-family : ±¼¸²;
+	font-size : 13px;
+	text-decoration : none;
+	font-weight : normal;
+}
+
+TD.OutlookBar  {
+	font-family : ±¼¸²;
+	font-size : 13px;
+	text-decoration : none;
+	font-weight : normal;
+}
+
+body,p,ol,ul,td
+   {
+	font-family: ±¼¸²;
+	font-size: 14px;
+	color:#222222;   
+   }

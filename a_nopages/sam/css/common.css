@@ -1,0 +1,90 @@
+﻿
+/* default */
+/* <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> */
+* {margin:0; padding:0; font-family: 'Montserrat',NanumGothic;color:#5c5c5c;box-sizing:border-box;}
+html{overflow-y:scroll;content:'';}
+a {text-decoration:none;}
+li{list-style-type:none;}
+input:-webkit-autofill {-webkit-box-shadow: 0 0 0 1000px white inset;background-color:#FFF;}
+input {padding:7px 8px; border-radius:5px; box-sizing:border-box;}
+input:focus{outline:none;}
+textarea{resize:none;}
+/* default end */
+
+/* custom Title */
+.pageTitle {font-size:32px;text-align:left;} /* h3 엘리먼트 class , 컨테이너 안에 최상단에 넣어야함. */
+.default_wrap_size {width:1000px;margin:auto;margin-top:30px;} /* 페이지를 감싸는 컨테이너의 기본 레이아웃 */
+
+.wrap {width:100%;margin:auto;}
+header .loginHeader{background-color:#000;}
+header .loginHeader .inLoginHeader{width:1000px;margin:auto;padding:3px 7px;text-align:right;background-color:#ee4848;}
+header .loginHeader .inLoginHeader a{margin:0 20px; font-size:13px;color:#FFF;}
+header .logoWrap{margin:auto;margin-top:10px;padding-bottom:10px;font-size:0;border-bottom:1px solid #939393;}
+header .logoWrap .logoHeader{width:30%;height:80px;display:inline-block;vertical-align:bottom;}
+
+header .logoWrap .logoHeader img{width:100%;height:100%;font-size:18px;} /* 로고 이미지 사이즈 조정 */
+header .logoWrap .logoHeader h1 {width:100%;height:100%;font-size:32px;line-height:80px;}
+header .logoWrap .inLogoWrap{width:1000px;margin:auto;}
+header .logoWrap .inLogoWrap .navi{width:70%;display:inline-block;}
+header .logoWrap .inLogoWrap .navi ul{text-align:center;}
+header .logoWrap .inLogoWrap .navi ul li {margin:0 30px;display:inline-block;}
+header .logoWrap .navi ul li a {font-size:22px;}
+
+section {position:relative;width:100%;height:100%;margin:auto;margin-top:10px;}
+section .topSection{width:100%;height:100%; margin:auto;}
+section .middleSection{width:100%;margin:auto;margin-top:10px;}
+section .bottomSection{width:100%;margin:auto;margin-top:10px;}
+section > div{text-align:center;}
+section > h3 {font-size:22px;}
+
+/* loginView */
+.loginWrap{width:1000px;margin:30px auto;}
+.loginWrap h3 {}
+.loginWrap > img {height:236px;vertical-align:top;margin-right:20px;} /* 수정됨 */
+.loginWrap .loginViewLockImg {width:140px;height:250px;display:inline-block;vertical-align:top;margin-right:30px;/*background-image:url(../images/lock_img.jpg);*/background-size:cover;background-repeat:no-repeat;background-position:5% center;}
+.loginWrap .loginViewLockImg img {height:100%;margin-top:35px; }
+.loginWrap .loginForm{margin-bottom:75px;display:inline-block;}
+.loginWrap .loginForm #login_support{color:#5c5c5c;font-size:14px;margin-top:5px;}
+.loginWrap .loginForm input{display:block;width:400px;height:50px;margin-top:20px;}
+.loginWrap .loginForm input:last-child,.loginWrap .loginForm textarea{border:0;background-color:#ee4848;color:#FFF;transition-duration:0.3s;-webkit-transition-duration:0.3s;-moz-transition-duration:0.3s;-o-transition-duration:0.3s;-ms-transition-duration:0.3s;}
+.loginWrap .loginForm input:last-child:focus{background-color:#626ef8;border-radius:5px;box-shadow:0 0 10px 10px #939393;}
+.loginWrap #search_support_text{height:20px;line-height:20px;}
+.memberSearch {width:80%;margin:auto; font-size:0;border:1px solid #5c5c5c;padding:10px; margin-bottom:30px;}
+.memberSearch .inMemberS h3{text-align:left;padding-left:10px;}
+.memberSearch .inMemberS p{margin-bottom:10px;}
+.memberSearch .inMemberS ul{margin-top:20px;}
+.memberSearch .inMemberS input {width:80%;height:50px;}
+.memberSearch .inMemberS input:not(first-child){margin-top:10px;}
+.memberSearch .id_searchDIV{width:50%;display:inline-block;font-size:15px;border-right:1px solid #d3d3d3;}
+.memberSearch .pass_searchDIV{width:50%;display:inline-block;font-size:15px;}
+.memberSearch .addLocationDIV {margin:10px 0;font-size:15px;}
+
+
+/* userAddView */
+.userAddWrap {width:1000px;margin:auto;margin-top:30px;}
+.userAddWrap .userAddFromDIV {width:640px;margin:auto;margin-top:30px;}
+.userAddWrap input{width:100%;height:60px;border:0;font-size:15px;border-bottom:1px solid #939393;border-radius:0;}
+.userAddWrap .userAddFromDIV input:not(:first-child) {margin-top:10px;}
+.userAddWrap .userAddFromDIV textarea {margin-top:10px;padding:10px;width:100%;height:150px;}
+.userAddWrap .userAddFromDIV input:last-child {margin-bottom:40px;border:0;background-color:#ee4848;font-size:18px;color:#FFF;box-shadow:0 0 10px 2px #cec3ee;transition-duration:0.3s;-webkit-transition-duration:0.3s;-moz-transition-duration:0.3s;-o-transition-duration:0.3s;}
+.userAddWrap .userAddFromDIV input:last-child:hover {background-color:#626ef8;border-radius:5px;box-shadow:0 0 10px 10px #939393;}
+.userAddWrap .userAddFromDIV .agreeBox{text-align:left;}
+.userAddWrap .userAddFromDIV #agree_text{transition-property:all;transition-duration:0.3s;-webkit-transition-duration:0.3s;-moz-transition-duration:0.3s;-o-transition-duration:0.3s;-ms-transition-duration:0.3s;}
+.userAddWrap .userAddFromDIV input[type=checkbox]#ad_agree {width:15px;height:15px; vertical-align:middle;}
+.userAddWrap .userAddFromDIV input[type=checkbox]#ad_agree:checked {border-radius:50px;}
+.userAddWrap .userAddFromDIV input{transition-duration:0.8s;transition-timing-function:ease;}
+.userAddWrap .userAddFromDIV input:not([type=checkbox]):focus {background-color:#ee4848;color:#FFF;border:0;box-shadow:0 0 4px 2px #000;}
+.userAddWrap .userAddFromDIV p{margin-top:15px;padding-left:10px;text-align:left;font-size:13px;display:none;}
+
+/* User Password SearchView */
+.passSearchView .contents h4 {margin:10px 0;}
+.passSearchView .contents form .chageInputBlock input {width:35%;height:50px;}
+.passSearchView .contents form .change_password_confirmDiv input{margin:10px 0;}
+.passSearchView .contents form input[type=button]{width:35%;height:50px; margin:10px 0;}
+.passSearchView .contents #input_password_support_text{margin:10px 0;padding:20px 0;background-color:#ee4848;color:#FFF;border-radius:15px;display:none;}
+.passSearchView .contents .input_password_support_Div{height:150px;margin-top:20px;padding-top:20px;}
+
+
+
+
+footer {width:100%;padding:20px 0;position:relative;bottom:0;text-align:center;background-color:#939393;color:#FFF;}

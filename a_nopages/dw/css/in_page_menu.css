@@ -1,0 +1,33 @@
+.in_page_menu {
+    width : 370px;        
+    position:absolute;
+    top:0px;
+    left:200px;
+    text-align:right;
+    border : 1px #dfdfdf solid;
+    padding-bottom:20px;
+}
+
+.in_page_menu h3 {
+    background-color:#e7e8ea;
+    color : #6c6d6f;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-right:10px;
+    font-weight:200;
+}
+
+.in_page_menu ul {
+    margin-top:12px;
+}
+
+.in_page_menu ul li {
+    padding-top:15px;
+    padding-bottom:6px;
+    padding-right:10px;
+    color :#6c6d6f;
+}
+
+.in_page_menu ul li a {
+    color :#6c6d6f;
+}

@@ -1,0 +1,1 @@
+<img src="http://thtjwls.dothome.co.kr/test/img/img_slide.jpg" height="80px;">

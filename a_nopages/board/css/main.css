@@ -1,0 +1,20 @@
+﻿@import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
+html { overflow-y:scroll;}
+html,body {height:100%;}
+.wrap {min-height:100%;}
+footer {margin-top:-30px;}
+.table > caption > a:first-child {margin-left:10px;}
+
+
+*:not(.fa):not(.glyphicon) {
+    font-family: 'Noto Sans KR', 'Nanum Barun Gothic', sans-serif;
+}
+
+.paginationNav {text-align:center;}
+/*rgb(60, 118, 61)*/
+.primaryCustom {color:#4cae4c;}
+.dangerCustom {color:#b92c28;}
+.btnGroupCustom {vertical-align:middle;}
+a {cursor:pointer;}
+
+.productWrap > h3 { margin-bottom:40px;font-weight:bold;}

@@ -1,0 +1,33 @@
+﻿button {
+    background:none;
+    border:0;
+}
+
+.slide {
+	width : 100%;
+	overflow : hidden;
+	margin: 0 auto;
+	position : relative;
+}
+
+.slide ul {
+	width : 5760px;
+	list-style : none;
+	font-size : 0;
+}
+
+.slide ul li {
+	display : inline-block;
+}
+
+.slide button.prev {
+	position : absolute;
+	right:40px;
+	top:550px;
+}
+
+.slide button.next {
+	position : absolute;
+	right:0;
+	top:550px;
+}

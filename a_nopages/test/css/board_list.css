@@ -1,0 +1,94 @@
+#wap {
+	width : 1000px;
+	margin : auto;
+}
+
+#wap h1 {
+	text-align : center;
+
+}	
+
+.left_menu {
+	float : left;
+	width : 15%;
+	margin-top : 10px;
+}
+
+
+#contents_div {
+	float : left;
+	margin-left:10px;
+	width : 75%;
+	padding-right : 10px;
+	padding-left : 20px;
+	padding-bottom : 50px;
+	margin-bottom : 20px;
+}
+
+#board_table {
+	margin-top:0px;
+	padding-top:20px;
+	border-spacing:0px; border:0px solid #000;
+	font-size:10pt;
+	width : 100%;
+}
+
+#board_table th {
+	background-color : #D1D3D4;
+	border : 0px solid #8C8C8C;
+	color : white;
+	height:30px;
+	text-align:center;
+}
+
+#paging {
+	border : 1px solid red;
+	text-align : center;
+}
+
+#paging span {
+	margin : 10px;
+}
+
+#paging td {
+	padding-top : 20px;
+}
+
+.paging_num {
+	border : 1px solid #D1D3D4;
+	padding : 5px;
+}
+
+.now_page {
+	
+}
+
+#search_form {
+	margin-top : 15px;
+}
+
+#subject {
+	width : 300px;
+	color : white;
+	border-bottom : 1px solid #8C8C8C;
+}
+
+#board_table tr .con{
+	border-bottom: 1px solid #8C8C8C;
+	height:25px;
+	text-align:center;
+}
+
+#top_img {
+	text-align:center;
+	border-bottom : 1px solid #8C8C8C;
+	overflow:hidden;
+	background-image: url("http://thtjwls.dothome.co.kr/test/img/img_slide.jpg");
+	background-repeat:repeat-x;
+}
+
+.new {
+	font-size : 10px;
+	margin-left : 20px;
+}
+

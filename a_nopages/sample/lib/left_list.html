@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title></title>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <style>
+        body, h1, h2, h3, h4, h5, h6, p, ul, li, ol, dd, dt, span, div, img {
+            padding:0;
+            margin:0;
+            font-family:NanumGothic;
+        }
+
+        li {
+            list-style-type:none;
+        }
+
+		img {
+			border: 0;
+		}
+
+        .paper_box {
+            padding-top : 60px;
+            margin-left:10px;
+        }
+
+        .paper_box ul {
+            border:2px solid #f22f00;
+            padding-top:5px;
+            padding-left:5px;
+            padding-bottom:5px;
+        }
+
+        .paper_box ul li {
+            text-align:left;
+            font-size:12px;
+            margin-top:5px;
+            margin-bottom:5px;
+
+        }
+
+        .paper_inner:first-child {
+            margin-top:0;
+        }
+
+        .paper_inner {
+            margin-top:20px;
+        }
+
+        .paper_inner img, .paper_inner a {
+            text-decoration:none;
+            color:black;
+        }
+
+        .wrap {
+            width:180px;
+            text-align:center;
+        }
+
+        .paper_box h3 {
+            background-color:#f22f00;
+            color:#FFF;
+            font-size:14px;
+        }
+
+        .folder_img {
+            width:20px;
+            height:16px;
+            padding-right:5px;
+            vertical-align:middle;
+        }
+
+        .folder_submenu {
+            width:15px;
+            padding-right:10px;
+            margin-left:8px;
+        }
+
+        #paper_submenu {
+            border:0;
+            display:none;
+        }
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {            
+            $(".show_buse1").click(function () {
+                var $display_sta = $("#paper_submenu").css("display");
+                if($display_sta == "none"){
+                    $("#paper_submenu").css("display", "block");
+                } else {
+                    $("#paper_submenu").css("display", "none");
+                }
+            })
+        });
+    </script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="paper_box">
+            <div class="paper_inner1 paper_inner">
+                <h3>전자결제함</h3>
+                <ul>
+                    <li>
+                        <a href="#"><img src="../img/folder.png" class="folder_img" alt="Alternate Text" />대기함</a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="../img/folder.png" class="folder_img" alt="Alternate Text" />진행함</a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="../img/folder.png" class="folder_img" alt="Alternate Text" />완료함</a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="../img/folder.png" class="folder_img" alt="Alternate Text" />반려함</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="paper_inner1 paper_inner">
+                <h3>공용문서함</h3>
+                <ul>
+                    <li><a href="#"><img src="../img/folder.png" class="folder_img" alt="Alternate Text" />업무폴더</a></li>
+                    <li><a href="#"><img src="../img/folder.png" class="folder_img" alt="Alternate Text" />문제해결</a></li>
+                    <li><a href="#"><img src="../img/folder.png" class="folder_img" alt="Alternate Text" />지식공유</a></li>
+                    <li><a href="#"><img src="../img/folder.png" class="folder_img" alt="Alternate Text" />업무표준</a></li>
+                    <li><a href="#"><img src="../img/folder.png" class="folder_img" alt="Alternate Text" />공지사항</a></li>                    
+                </ul>
+            </div>
+            <div class="paper_inner1 paper_inner">
+                <h3>부서별문서함</h3>
+                <ul>
+                    <li>
+                        <a href="#" id="buse1" class="show_buse1">
+                            <img src="../img/folder.png" class="folder_img" alt="Alternate Text" />경영기획실
+                        </a>
+                        <ul id="paper_submenu">
+                            <li><img src="../img/folder_submenu.png" class="folder_submenu" alt="Alternate Text" />총무회계팀</li>
+                            <li><img src="../img/folder_submenu.png" class="folder_submenu" alt="Alternate Text" />판매팀</li>
+                            <li><img src="../img/folder_submenu.png" class="folder_submenu" alt="Alternate Text" />비서팀</li>
+                            <li><img src="../img/folder_submenu.png" class="folder_submenu" alt="Alternate Text" />제작시설관리팀</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../img/folder.png" class="folder_img" alt="Alternate Text" />신사업국
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../img/folder.png" class="folder_img" alt="Alternate Text" />편집국
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../img/folder.png" class="folder_img" alt="Alternate Text" />임원/비서실
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
