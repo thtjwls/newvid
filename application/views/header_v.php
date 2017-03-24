@@ -166,14 +166,24 @@
 							continue;
 						if ( $value == 'index' )
 							continue;
-				?>
-				<li>
-					<a href="#"><?=$path_name[$value];?></a>
-				</li>
-				<?
-					}
+
+						?>
+						<li>
+							<a href="#"><?=$path_name[$value];?></a>
+						</li>
+						<?
+					}					
 				?>
 			</ul>			
 		</nav>		
-	</header>	
+	</header>		
 <article>
+<?
+
+
+
+
+
+
+echo '<br>';
+?>

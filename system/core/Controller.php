@@ -101,7 +101,24 @@ class CI_Controller {
 			'organization' 	=> '조직도',
 			'environment' 	=> '개발환경',
 			'ci' 			=> 'CI',
-			
+			'web'			=> 'WEB',
+			'shoppingmall'	=> '쇼핑몰',
+			'company'		=> '홈페이지',
+			'personal'		=> '홈페이지',
+			'solustion'		=> '솔루션',
+			'publics'		=> '공공기관',
+			'webbanner'		=> '웹배너',
+			'design'		=> '디자인',
+			'card'			=> '명함',
+			'leaflet'		=> '전단지',
+			'plancart'		=> '현수막',
+			'signboard'		=> '간판',
+			'banner'		=> '배너',
+			'sticker'		=> '스티커',
+			'brochure'		=> '브로슈어',
+			'blog'			=> '블로그',
+			'illust'		=> '일러스트',
+
 			);
 
 		$this->load->view('header_v', array('path_name'=>$path_name));
