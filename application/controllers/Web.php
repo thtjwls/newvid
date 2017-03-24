@@ -20,16 +20,10 @@ class Web extends CI_Controller {
 		$this->load->view('web/shoppingmall_v');
 	}
 
-	//기업 단체홈페이지
-	public function company()
+	//홈페이지
+	public function homepage()
 	{
-		$this->load->view('web/company_v');
-	}
-
-	//개인홈페이지
-	public function personal()
-	{
-		$this->load->view('web/personal_v');
+		$this->load->view('web/homepage_v');
 	}
 
 	//솔루션

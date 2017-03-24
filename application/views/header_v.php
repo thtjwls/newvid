@@ -50,12 +50,9 @@
 					<ul class="sub_menu">
 						<li>
 							<a href="/web/shoppingmall">쇼핑몰</a>
-						</li>
+						</li>						
 						<li>
-							<a href="/web/company">기업·단체 홈페이지</a>
-						</li>
-						<li>
-							<a href="/web/personal">개인홈페이지</a>
+							<a href="/web/homepage">홈페이지</a>
 						</li>
 						<li>
 							<a href="/web/solustion">솔루션</a>

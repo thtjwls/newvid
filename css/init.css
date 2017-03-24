@@ -1,4 +1,4 @@
-/* 경로 네비게이션 */
+/* 경로 네비게이션 끝*/
 /**
 commit test
 */
@@ -39,4 +39,107 @@ nav.path_nav ul li:last-of-type a {
 
 nav.path_nav ul li a:hover {
 	background-color: #fe0908;
+}
+
+
+/* ul.table init */
+ul.table {
+	width:100%;
+}
+
+ul.table li {
+	font-size:0;
+}
+
+article {
+	width:1100px;
+	margin:auto;
+	margin-bottom:100px;
+}
+
+.board_bbs ul.table li span {
+	display:inline-block;
+	vertical-align:middle;
+	padding:13px 15px;	
+}
+
+.board_bbs ul.table li.thead span {
+	font-size:15px;
+	font-weight:600;
+	color:#5C5C5C;
+	text-align:center;
+}
+
+.board_bbs ul.table li.tbody span {
+	font-size:15px;
+	font-weight:600;
+	color:#5C5C5C;
+}
+
+.board_bbs ul.table li span:nth-child(1) {
+	width:10%;
+	text-align:center;
+}
+
+.board_bbs ul.table li span:nth-child(2) {
+	width:35%;
+	text-align:left;
+}
+
+.board_bbs ul.table li span:nth-child(3) {
+	width:15%;
+	text-align:center;
+}
+
+.board_bbs ul.table li span:nth-child(4) {
+	width:20%;
+	text-align:center;
+}
+
+.board_bbs ul.table li span:nth-child(5) {
+	width:20%;
+	text-align:center;
+}
+
+.board_bbs ul.table li.tr.thead {
+	background-color:#DCDCDC;
+	border-top:2px solid #BABABA;
+	border-bottom:2px solid #BABABA;
+}
+
+.board_bbs ul.table li.tr.tbody {
+	border-bottom:1px dotted #BABABA;
+}
+
+.board_bbs ul.table li.tbody:hover {
+	background-color:#3F3F3F;
+}
+
+.board_bbs ul.table li.tbody:hover span,.board_bbs ul.table li.tbody:hover span a {
+	color:#FFF;
+}
+
+ul.pagination {
+	text-align:center;
+	margin-top:10px;
+}
+
+
+ul.pagination li {
+	display:inline-block;
+	vertical-align:middle;
+}
+
+ul.pagination li a {
+	font-size:13px;
+	font-weight:500;
+	width:30px;
+	height:30px;
+	line-height:30px;	
+	margin:auto 5px;
+	color:#5C5C5C;
+}
+
+ul.pagination li a:hover {
+
 }

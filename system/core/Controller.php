@@ -103,8 +103,7 @@ class CI_Controller {
 			'ci' 			=> 'CI',
 			'web'			=> 'WEB',
 			'shoppingmall'	=> '쇼핑몰',
-			'company'		=> '홈페이지',
-			'personal'		=> '홈페이지',
+			'homepage'		=> '홈페이지',
 			'solustion'		=> '솔루션',
 			'publics'		=> '공공기관',
 			'webbanner'		=> '웹배너',
@@ -118,7 +117,16 @@ class CI_Controller {
 			'brochure'		=> '브로슈어',
 			'blog'			=> '블로그',
 			'illust'		=> '일러스트',
-
+			'photoshop'		=> '포토샵',
+			'program'		=> 'PHP/JSP',
+			'js'			=> 'Javascript',
+			'html'			=> 'HTML5/CSS3',
+			'board'			=> '게시판',
+			'notice'		=> '공지사항',
+			'bbs'			=> '자유게시판',
+			'qna'			=> 'Q&A',
+			'culture'		=> '문화',
+			'lecture'		=> '강의'
 			);
 
 		$this->load->view('header_v', array('path_name'=>$path_name));
