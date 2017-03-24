@@ -15,7 +15,7 @@
 			success : function (data)
 			{
 				//기본
-				console.log("finish!!! : " + data);
+				console.log("finish!!! : " + data + "\n 피니시");
 			},
 			beforeSend : function (data)
 			{

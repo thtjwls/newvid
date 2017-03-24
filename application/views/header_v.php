@@ -9,8 +9,9 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no">
 	<link rel="icon" href="http://www.newvid.co.kr/images/favicon-190x190.png" sizes="192x192" /> 
 	<link rel="apple-touch-icon-precomposed" href="http://www.newvid.co.kr/images/favicon-180x180.png" /> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-	<link rel="stylesheet" type="text/css" href="/css/main.css?v=<?=date('YmdHis');?>">
+	<link rel="stylesheet" type="text/css" href="/css/main.css?v=<?=date('YmdHis');?>">	
 	<!--<link rel="stylesheet" type="text/css" href="/css/media.css?v=<?=date('YmdHis');?>">-->
 	<script type="text/javascript" src="/js/main.js?v=<?=date('YmdHis');?>"></script>
 </head>
