@@ -1,1 +1,3 @@
-bbs page
+<div class="contents">
+	
+</div>

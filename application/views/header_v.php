@@ -11,6 +11,7 @@
 	<link rel="apple-touch-icon-precomposed" href="http://www.newvid.co.kr/images/favicon-180x180.png" /> 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="/css/init.css?v=<?=date('YmdHis');?>">
 	<link rel="stylesheet" type="text/css" href="/css/main.css?v=<?=date('YmdHis');?>">	
 	<!--<link rel="stylesheet" type="text/css" href="/css/media.css?v=<?=date('YmdHis');?>">-->
 	<script type="text/javascript" src="/js/main.js?v=<?=date('YmdHis');?>"></script>
@@ -40,7 +41,7 @@
 							<a href="/intro/environment">개발환경</a>
 						</li>
 						<li>
-							<a href="/intro/ci">CIㅁ</a>
+							<a href="/intro/ci">CI</a>
 						</li>						
 					</ul>	
 				</li>
@@ -147,33 +148,32 @@
 						MEMBERSHIP
 					</a>
 				</li>
+				<li>
+					<a href="/developer/system">
+						<i class="fa fa-lock"></i>
+						admin
+					</a>
+				</li>	
 			</ul>						
 		</nav>		
-		<nav class="path_nav">
-			<ul>
-				<?					
+		<nav class="path_nav clearfix">
+			<ul class="clearfix">
+				<?				
 					$url = explode('/',$_SERVER['PHP_SELF']);
 
 					foreach ($url as $key => $value) {
-						if ( $value == 'index.php' ) continue;
-
-						$path = Array(
-							'intro'		=>	'Home',
-							'web' 		=>	'Web',
-							'design'	=>	'Design',
-							'blog'		=> 	'Blog',
-							'board'		=>	'Board'
-							);						
-						echo '<li><a href=\'#\'>';
-						
-						if ( in_array($value, $path) ) {
-							echo $path[$value];
-						}
-						
-						echo '</a></li>';
-					}					
+						if ( $key == 0 || $value == 'index.php' )
+							continue;
+						if ( $value == 'index' )
+							continue;
+				?>
+				<li>
+					<a href="#"><?=$path_name[$value];?></a>
+				</li>
+				<?
+					}
 				?>
 			</ul>			
-		</nav>
-	</header>
+		</nav>		
+	</header>	
 <article>

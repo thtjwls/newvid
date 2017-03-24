@@ -95,7 +95,16 @@ class CI_Controller {
 
 	public function _remap( $method )
 	{
-		$this->load->view('header_v');
+
+		$path_name = array(
+			'intro'=>'소개',
+			'organization' 	=> '조직도',
+			'environment' 	=> '개발환경',
+			'ci' 			=> 'CI',
+			
+			);
+
+		$this->load->view('header_v', array('path_name'=>$path_name));
 
 		if ( method_exists( $this , $method ) )
 		{
