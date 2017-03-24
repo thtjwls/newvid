@@ -17,4 +17,10 @@ class Developer extends CI_Controller {
 	{
 		$this->load->view('develop/system_v');
 	}
+
+	public function updateSite()
+	{
+		$this->load->model('Developer_m');
+		$this->Developer_m->string("git pull newvid master");		
+	}
 }
