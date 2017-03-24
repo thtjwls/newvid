@@ -39,7 +39,7 @@
 							<a href="/intro/environment">개발환경</a>
 						</li>
 						<li>
-							<a href="/intro/ci">CI</a>
+							<a href="/intro/ci">CIㅁ</a>
 						</li>						
 					</ul>	
 				</li>
