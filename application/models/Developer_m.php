@@ -8,9 +8,14 @@ class Developer_m extends CI_Model
 		parent::__construct();		
 	}
 
-	public function string( $query )
+	/**
+	 * 쿼리 
+	 * @param  [array] $query 시스템 커맨드 배열
+	 * @return array
+	 */
+	public function exec( $query )
 	{
-		echo system( $query );
+		return exec( $query );
 	}
 
 }
