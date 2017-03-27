@@ -53,8 +53,46 @@ ul.table li {
 
 article {
 	width:1100px;
+	min-height:580px;
 	margin:auto;
 	margin-bottom:100px;
+}
+
+.board_bbs .actions {
+	margin:30px auto;
+}
+
+.board_bbs form.search_form {
+	float:left;
+}
+
+.board_bbs form input[type=button] {
+	text-align:center;
+	background-color:#575757;
+	padding:7px 6px;
+	color:#FFF;
+	border:1px solid #575757;
+}
+
+.board_bbs form input, .board_bbs .actions form button {
+	padding:7px 6px;
+	vertical-align:middle;
+}
+
+.board_bbs .buttons {
+	float:right;
+}
+
+.board_bbs .buttons a {
+	width:100px;
+	text-align:center;
+	background-color:#575757;
+	padding:7px 6px;
+	color:#FFF;
+}
+
+.board_bbs ul.table {
+	margin-bottom:30px;
 }
 
 .board_bbs ul.table li span {
@@ -72,7 +110,7 @@ article {
 
 .board_bbs ul.table li.tbody span {
 	font-size:15px;
-	font-weight:600;
+	font-weight:300;
 	color:#5C5C5C;
 }
 
@@ -121,7 +159,7 @@ article {
 
 ul.pagination {
 	text-align:center;
-	margin-top:10px;
+	margin:10px auto;
 }
 
 

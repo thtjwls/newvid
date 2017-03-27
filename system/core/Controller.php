@@ -96,8 +96,11 @@ class CI_Controller {
 	public function _remap( $method )
 	{
 
+		$url = explode('/',$_SERVER['PHP_SELF']);
+
 		$path_name = array(
-			'intro'=>'소개',
+			'home'			=> 'HOME',
+			'intro'			=> '소개',
 			'organization' 	=> '조직도',
 			'environment' 	=> '개발환경',
 			'ci' 			=> 'CI',
@@ -129,7 +132,11 @@ class CI_Controller {
 			'lecture'		=> '강의'
 			);
 
-		$this->load->view('header_v', array('path_name'=>$path_name));
+		$this->load->view('header_v', 
+			array(
+				'path_name'=>$path_name
+			)
+		);
 
 		if ( method_exists( $this , $method ) )
 		{

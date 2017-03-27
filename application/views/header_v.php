@@ -29,31 +29,31 @@
 		<nav class="nav">
 			<ul class="header_nav list_inline">
 				<li class="menu_title active">
-					<a href="/intro/index">Home</a>
+					<a href="/home/intro">Home</a>
 					<ul class="sub_menu">
 						<li>
-							<a href="/intro/index">소개</a>
+							<a href="/home/intro">소개</a>
 						</li>
 						<li>
-							<a href="/intro/organization">조직도</a>
+							<a href="/home/organization">조직도</a>
 						</li>
 						<li>
-							<a href="/intro/environment">개발환경</a>
+							<a href="/home/environment">개발환경</a>
 						</li>
 						<li>
-							<a href="/intro/ci">CI</a>
+							<a href="/home/ci">CI</a>
 						</li>						
 					</ul>	
 				</li>
 				<li class="menu_title">
-					<a href="/web/index">Web</a>
+					<a href="/web/homepage">Web</a>
 					<ul class="sub_menu">
-						<li>
-							<a href="/web/shoppingmall">쇼핑몰</a>
-						</li>						
 						<li>
 							<a href="/web/homepage">홈페이지</a>
 						</li>
+						<li>
+							<a href="/web/shoppingmall">쇼핑몰</a>
+						</li>												
 						<li>
 							<a href="/web/solustion">솔루션</a>
 						</li>
@@ -66,7 +66,7 @@
 					</ul>
 				</li>
 				<li class="menu_title">
-					<a href="/design/index">Design</a>
+					<a href="/design/card">Design</a>
 					<ul class="sub_menu">
 						<li>
 							<a href="/design/card">명함</a>
@@ -92,7 +92,7 @@
 					</ul>						
 				</li>
 				<li class="menu_title">
-					<a href="/blog/index">Blog</a>
+					<a href="/blog/illust">Blog</a>
 					<ul class="sub_menu">
 						<li>
 							<a href="/blog/illust">일러스트</a>
@@ -112,7 +112,7 @@
 					</ul>					
 				</li>
 				<li class="menu_title">
-					<a href="/board/index">Board</a>
+					<a href="/board/notice">Board</a>
 					<ul class="sub_menu">
 						<li>
 							<a href="/board/notice">공지사항</a>
@@ -153,6 +153,7 @@
 				</li>	
 			</ul>						
 		</nav>		
+		<!--
 		<nav class="path_nav clearfix">
 			<ul class="clearfix">
 				<?				
@@ -173,14 +174,22 @@
 				?>
 			</ul>			
 		</nav>		
-	</header>		
+		-->
+	</header>
+	<?
+	if ( array_key_exists( 3 , $url ) ) {
+	?>
+	<div class="path_info clearfix">
+		<h2>
+			<?=$path_name[$url[3]];?>
+		</h2>
+		<ol class="path_detail">
+			<? foreach( $url as $key => $val ) { if ( $key == 0 || $key == 1 ) continue; ?>
+			<li>
+				<a href=""><?=$path_name[$val]?></a>
+			</li>
+			<? } ?>
+		</ol>
+	</div>
+	<? } ?>
 <article>
-<?
-
-
-
-
-
-
-echo '<br>';
-?>

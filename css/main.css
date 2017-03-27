@@ -4,8 +4,16 @@
     font-family: 'Noto Sans KR', 'Nanum Barun Gothic', sans-serif !important;   
 }
 html {
-	min-width: 1100px;
+	min-width: 1100px;	
 }
+
+body {	
+	background-image:url(/images/bg_img.png);
+	background-repeat:no-repeat;
+	background-position:right 80%;
+	background-size:50%;
+}
+
 a { text-decoration: none; color:#575757; display: block;}
 li { list-style-type: none; }
 .clearfix:before { display: block; }
@@ -15,7 +23,7 @@ li { list-style-type: none; }
 .navitoggle i { font-size: 200%; padding:10px;}
 
 
-header { width: 100%; padding: 15px 25px;font-size: 0; background: #FFF; }
+header { width: 100%; padding: 15px 25px;font-size: 0; background: #FFF; margin-bottom:30px; }
 header h1.logo { display: inline-block;vertical-align: middle;width: 10%; }
 header h1.logo a {}
 header h1.logo a img { width: 100%; vertical-align: middle; }
@@ -75,6 +83,7 @@ header nav.nav .header_nav:hover ul.sub_menu {
 	height: 300px;
 	opacity: 1;			
 	top: 34px;
+	
 	transition-duration: 0.4s;	
 	-webkit-transition-duration: 0.4s;
 	-moz-transition-duration: 0.4s;
@@ -87,6 +96,7 @@ header nav.nav .header_nav:hover ul.sub_menu {
 }
 /* sub_menu */
 ul.sub_menu {
+	z-index:999999;
 	position: absolute;
 	top: 34px;
 	overflow: hidden;
@@ -125,3 +135,268 @@ header nav.path_nav {
 	color: #000;
 	font-size: 15px;
 }
+
+div.path_info {
+	width:100%;
+	min-width:1100px;
+	margin-bottom:30px;
+}
+
+div.path_info h2 {
+	float:left;
+	color:#fe0908;
+	width:200px;
+	text-align:right;
+	font-weight:300;
+	border-bottom:3px solid #FE0908;
+	padding:0 0 10px 0;
+/*	background-color:#000; */
+}
+
+div.path_info .path_detail {
+	float:right;
+	margin-right:50px;
+}
+
+div.path_info .path_detail li {
+	display:inline-block;
+	font-size:13px;
+}
+
+div.path_info .path_detail li a {
+	color:#FFF;
+	text-align:center;
+	width:100px;
+	height:30px;
+	line-height:30px;
+}
+
+div.path_info .path_detail li:not(:last-of-type) a {
+	background-color:#AFAEAE;
+}
+
+div.path_info .path_detail li:last-of-type a {
+	background-color:#FE0908;
+}
+
+/* organization page */
+.organ {
+	position:relative;
+}
+
+.organ .dept1 span, .organ .dept2 span {
+	position:relative;
+	display:inline-block;
+	width:250px;
+	height:100px;		
+	border-radius:100px;
+	background-color:#FF6161;
+	color:#FFF;
+	text-align:center;
+	line-height:100px;
+	font-weight:500;
+	font-size:18px;
+}
+
+.organ .dept1 { text-align:center; margin-bottom:100px; }
+.organ .dept2 { text-align:center; margin-bottom:100px;}
+.organ span.develop {}
+.organ span.design { margin:auto 50px;}
+.organ span.service {}
+
+.organ span.line {
+	position:absolute; 
+/*	border:1px solid #FF6161; */
+	background-color:#FF6161;
+}
+
+.organ span.line { 	
+	width:800px;
+	height:1px; 	
+	top:250px; 
+	left:150px; 
+}
+
+.organ span.line.dept {
+	width:1px;
+	height:150px;
+	top:50px;;
+	left:50%;
+}
+
+.organ .dept3 {
+	position:relative;
+	text-align:center;
+	color:#FF6161;
+	font-weight:300;
+	font-size:18px;
+}
+
+.organ .dept3 .position {
+	display:inline-block;
+	width:850px;
+	height:90px;
+	border:2px solid #FF6161;
+	border-radius:90px;
+	line-height:90px;
+}
+
+.organ .dept3 .position .position-header {
+	float:left;
+	line-height:90px;
+	padding:0 60px;
+}
+
+.organ .dept3 .position .position-info {
+	float:right;
+	line-height:90px;
+	padding:0 60px;
+}
+
+.organ .dept3 .position .position-info span {
+	display:inline-block;
+	padding:0 20px;
+}
+
+.organ .dept3 .position .position-info .dep3-line {
+	position:absolute;
+	background-color:#FF6161;
+	width:600px;
+	height:1px;
+	top:50%;
+	bottom:0;
+}
+
+/* organization page end */
+
+/* board > qna */
+.qna_wrap {
+
+}
+
+.qna_wrap ul.qna_table li {
+	font-size:0;
+}
+
+.qna_wrap span {
+	display:inline-block;
+	font-size:15px;
+	font-weight:300;
+	padding:13px 15px;
+}
+
+.qna_wrap ul.qna_table {
+	width:100%;
+	font-size:0;
+	margin-bottom:30px;
+}
+
+.qna_wrap ul.qna_table li.tr.thead {
+	background-color: #BABABA;
+	font-weight:600;
+}
+
+.qna_wrap ul.qna_table li.tr:not(.thead) {
+	border-bottom:1px dotted #BABABA;
+}
+
+.qna_wrap ul.qna_table li.tr span:nth-of-type(1) {width:10%;}
+.qna_wrap ul.qna_table li.tr span:nth-of-type(2) {width:45%;}
+.qna_wrap ul.qna_table li.tr span:nth-of-type(3) {width:15%;}
+.qna_wrap ul.qna_table li.tr span:nth-of-type(4) {width:15%;}
+.qna_wrap ul.qna_table li.tr span:nth-of-type(5) {width:15%;}
+
+.qna_wrap .qnaWrite {
+	float:right;
+	border:0;
+	width: 80px;
+    text-align: center;
+    background-color: #575757;
+    padding: 7px 6px;
+    color: #FFF;
+	font-size:15px;
+	font-weight:300;
+}
+
+.qna_wrap .qnaWrite {
+	
+}
+
+.qna_wrap ul.pagination {
+	text-align:left;
+}
+
+
+
+
+
+/**
+*@autor "김다예"
+*@comment "footer css"
+*/
+
+/* footer css daye */
+footer{
+	background-color:#4C4948;
+	letter-spacing:2px;
+}
+footer .footer_container {
+	width:1100px;	
+	margin:auto;
+	padding:22px 0;
+}
+
+footer .footer_container .footer_logo {
+	float:left;
+	position:relative;
+	top:0;
+	width:12%;
+}
+footer .footer_container .footer_logo img{
+	width:100%;	
+}
+footer .footer_info{
+	float:left;
+	margin-left:60px; 
+ }
+footer .footer_info ul {
+	
+}
+footer .footer_info ul li {
+	float:left;
+}
+footer .footer_info ul li a{
+	font-size:12px;
+	color:#ffffff;
+	padding:0 30px;
+	box-sizing:border-box;
+}
+footer .footer_info ul li:first-of-type a{
+	padding-left:0;
+}
+footer .footer_info ul li:last-of-type a{
+	border-right:0;
+}
+footer address {
+	float:left;	
+	font-size:12px;
+	color:#ffffff;
+	font-style:normal;
+}
+
+footer address * {
+	color:#FFF;
+}
+
+footer address p.address_info a {
+	display:inline-block;
+}
+
+footer address p.copyright {
+	display:inline-block;
+}
+
+footer address a[href^="mailto"] {
+	color:#FFF;
+	display:inline-block;
+}	
