@@ -184,11 +184,15 @@
 			<?=$path_name[$url[3]];?>
 		</h2>
 		<ol class="path_detail">
-			<? foreach( $url as $key => $val ) { if ( $key == 0 || $key == 1 ) continue; ?>
+			<?
+				for ($i=2; $i < 4; $i++) { 
+					?>
 			<li>
-				<a href=""><?=$path_name[$val]?></a>
+				<a href=""><?=$path_name[$url[$i]]?></a>
 			</li>
-			<? } ?>
+					<?
+				}
+			?>
 		</ol>
 	</div>
 	<? } ?>
