@@ -15,9 +15,19 @@ class Board extends CI_Controller {
 	}
 
 	//자유게시판
-	public function bbs()
+	public function bbs( $mod = 'list' )
 	{
-		$this->load->view('board/bbs_v');
+		switch ( $mod ) {
+			
+			case 'list' :
+				$this->load->view('board/bbs_v',array('mod'=>$mod));
+				break;
+
+
+			default :
+			break;
+		}
+		
 	}
 	
 	//qna
