@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
@@ -17,3 +18,6 @@
 	<p id="agent"></p>
 </body>
 </html>
+=======
+asdf
+>>>>>>> 72ff3bce5e32439c25bd3ef4162ebcc01bdc35b1

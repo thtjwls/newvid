@@ -17,6 +17,7 @@ class Board extends CI_Controller {
 	//자유게시판
 	public function bbs( $mod = 'list' )
 	{
+<<<<<<< HEAD
 		switch ( $mod ) {
 			
 			case 'list' :
@@ -27,6 +28,20 @@ class Board extends CI_Controller {
 			default :
 			break;
 		}
+=======
+		$mod = 'list';
+		switch ( $mod ) {
+			case 'list':
+				$this->load->view('board/bbs_v');
+				break;
+			
+			case 'write' :
+				$this->load->view('lib/writer_v');
+				break;
+			default:				
+				break;
+		}		
+>>>>>>> 72ff3bce5e32439c25bd3ef4162ebcc01bdc35b1
 		
 	}
 	

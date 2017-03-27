@@ -420,6 +420,42 @@ div.path_info .path_detail li:last-of-type a {
 
 /*CI page end*/
 
+/* Editor page */
+.editor_wrap label[for=subject] {
+		display:block;
+}
+
+.editor_wrap label[for=subject] input[type=text] {
+	width:100%;
+	padding:12px 15px;
+	color:#575757;
+	font-weight: 500;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+.editor_wrap h3.page-title {
+	padding:8px 15px;
+	background-color: rgb(255,44,43);
+	color:#FFF;
+	margin-bottom: 30px;
+}
+
+.editor_wrap .ckeditr_division {
+	margin-bottom: 10px;
+}
+
+.editor_wrap .submit-btn {
+	padding:12px 25px;
+	border:0;
+	background-color: #575757;
+	color:#FFF;
+	font-weight: 500;
+	font-size: 18px;
+	float: right;
+}
+
+/* End Editor page */
 
 
 
