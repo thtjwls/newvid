@@ -1,1 +1,4 @@
-getid : <?=$id?>
+getid : 
+<?
+echo $id;
+?>

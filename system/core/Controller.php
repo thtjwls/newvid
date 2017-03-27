@@ -93,7 +93,7 @@ class CI_Controller {
 		return self::$instance;
 	}
 
-	public function _remap( $method )
+	public function _remap( $method, $params = array() )
 	{
 
 		$url = explode('/',$_SERVER['PHP_SELF']);
@@ -138,9 +138,12 @@ class CI_Controller {
 			)
 		);
 
-		if ( method_exists( $this , $method ) )
-		{
-			$this->{"{$method}"}();
+		if ( method_exists( $this , $method ) ) {
+
+			call_user_func_array(array($this, $method), $params);
+
+		}else{
+			echo 'URL을 잘못 입력하셨습니다.';
 		}
 
 		$this->load->view('footer_v');

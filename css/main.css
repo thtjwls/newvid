@@ -445,14 +445,20 @@ div.path_info .path_detail li:last-of-type a {
 	margin-bottom: 10px;
 }
 
-.editor_wrap .submit-btn {
+.editor_wrap .btn {
 	padding:12px 25px;
 	border:0;
 	background-color: #575757;
 	color:#FFF;
 	font-weight: 500;
 	font-size: 18px;
+	margin-left:10px;
+	cursor:pointer;
 	float: right;
+}
+
+.editor_wrap .btn.back {
+	background-color:#0F13EF;
 }
 
 /* End Editor page */

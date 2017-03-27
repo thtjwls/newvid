@@ -1,4 +1,3 @@
-get : <?=$mod?>
 <div class="board_bbs">
 	<ul class="table">
 		<li class="tr thead">
@@ -42,14 +41,7 @@ get : <?=$mod?>
 		</li>
 		<? } ?>
 	</ul>
-	<div class="row clearfix">
-		<form action="" class="search_form">
-				<input type="search" class=""/>
-				<input type="button" value="검색"/>
-		</form>
-		<div class="buttons">
-			<a href="">글쓰기</a>
-		</div>
+	<div class="row clearfix">				
 		<ul class="pagination">
 			<li class="fast-prev">
 				<a href="">
@@ -77,5 +69,14 @@ get : <?=$mod?>
 				</a>
 			</li>
 		</ul>
+		<div class="row clearfix">
+			<form action="" class="search_form">
+					<input type="search" class=""/>
+					<input type="button" value="검색"/>
+			</form>
+			<div class="buttons">
+				<a href="/board/bbs/write/">글쓰기</a>
+			</div>
+		</div>
 	</div>		
 </div>

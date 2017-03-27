@@ -17,31 +17,20 @@ class Board extends CI_Controller {
 	//자유게시판
 	public function bbs( $mod = 'list' )
 	{
-<<<<<<< HEAD
+		$category = $this->uri->segment(2);
+
 		switch ( $mod ) {
 			
 			case 'list' :
 				$this->load->view('board/bbs_v',array('mod'=>$mod));
 				break;
+			case 'write' : 
 
-
+				$this->load->view('lib/writer_v',array( 'mod'=>$mod, 'category'=>$category ));
+				break;
 			default :
-			break;
+				break;
 		}
-=======
-		$mod = 'list';
-		switch ( $mod ) {
-			case 'list':
-				$this->load->view('board/bbs_v');
-				break;
-			
-			case 'write' :
-				$this->load->view('lib/writer_v');
-				break;
-			default:				
-				break;
-		}		
->>>>>>> 72ff3bce5e32439c25bd3ef4162ebcc01bdc35b1
 		
 	}
 	

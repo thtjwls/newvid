@@ -141,8 +141,10 @@ article {
 
 .board_bbs ul.table li.tr.thead {
 	background-color:#DCDCDC;
+	/*
 	border-top:2px solid #BABABA;
 	border-bottom:2px solid #BABABA;
+	*/
 }
 
 .board_bbs ul.table li.tr.tbody {
