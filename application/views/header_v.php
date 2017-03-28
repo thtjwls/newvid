@@ -28,6 +28,23 @@
 		</a>
 		<nav class="nav">
 			<ul class="header_nav list_inline">
+			
+			<? /* 대메뉴 */ for ($gm = 0; $gm < count($mn0); $gm++ ) { ?>
+				<li class="menu_title">
+					<a href="/<?=$mn0[$gm][1]?>"><?=$mn0[$gm][2]?></a>
+					<? if ( $mn0[$gm][3] > 0 ) { ?>
+					<ul class="sub_menu">					
+						<? /* 메뉴 */ for( $sm = 0; $sm < count($mn1[$gm]); $sm++) { ?>
+							<li>
+								<a href="/<?=$mn0[$gm][1] . '/' . $mn1[$gm][$sm][1]?>"><?=$mn1[$gm][$sm][2]?></a>
+							</li>
+						<? } ?>
+					</ul>
+					<? } ?>
+				</li>
+			<? } ?>
+			</ul>
+			<!--
 				<li class="menu_title active">
 					<a href="/home/intro">Home</a>
 					<ul class="sub_menu">
@@ -131,7 +148,8 @@
 						</li>
 					</ul>
 				</li>						
-			</ul>	
+			</ul>
+			-->	
 			<ul class="login_nav list_inline">
 				<li>
 					<a href="">
@@ -150,9 +168,9 @@
 						<i class="fa fa-lock"></i>
 						admin
 					</a>
-				</li>	
+				</li>					
 			</ul>						
-		</nav>		
+		</nav>				
 		<!--
 		<nav class="path_nav clearfix">
 			<ul class="clearfix">
@@ -176,24 +194,14 @@
 		</nav>		
 		-->
 	</header>
-	<?
-	if ( array_key_exists( 3 , $url ) ) {
-	?>
 	<div class="path_info clearfix">
 		<h2>
-			<?=$path_name[$url[3]];?>
+			
 		</h2>
-		<ol class="path_detail">
-			<?
-				for ($i=2; $i < 4; $i++) { 
-					?>
+		<ol class="path_detail">			
 			<li>
-				<a href=""><?=$path_name[$url[$i]]?></a>
-			</li>
-					<?
-				}
-			?>
+				<a href=""></a>
+			</li>					
 		</ol>
-	</div>
-	<? } ?>
+	</div>	
 <article>

@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Design extends CI_Controller {
+class Design extends MY_Controller {
 	
 	//명함
 	public function card()

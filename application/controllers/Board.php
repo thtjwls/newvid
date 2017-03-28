@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Board extends CI_Controller {
+class Board extends MY_Controller {
 
 	public function index()
 	{
@@ -22,6 +22,7 @@ class Board extends CI_Controller {
 		switch ( $mod ) {
 			
 			case 'list' :
+			
 				$this->load->view('board/bbs_v',array('mod'=>$mod));
 				break;
 			case 'write' : 
