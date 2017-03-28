@@ -1,7 +1,17 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Blog extends CI_Controller {
+class Blog extends MY_Controller {
+
+	public function __construct()
+	{
+		parent::__construct();
+	}
+
+	public function index()
+	{
+		redirect('/blog/illust','refresh',301);
+	}
 	
 	public function illust()
 	{

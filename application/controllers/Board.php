@@ -1,11 +1,16 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Board extends CI_Controller {
+class Board extends MY_Controller {
+
+	public function __construct()
+	{
+		parent::__construct();
+	}
 
 	public function index()
 	{
-		$this->notice();
+		redirect('/board/notice');
 	}
 
 	//공지사항
@@ -22,6 +27,7 @@ class Board extends CI_Controller {
 		switch ( $mod ) {
 			
 			case 'list' :
+			
 				$this->load->view('board/bbs_v',array('mod'=>$mod));
 				break;
 			case 'write' : 

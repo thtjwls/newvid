@@ -1,8 +1,18 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Design extends CI_Controller {
+class Design extends MY_Controller {
 	
+	public function __construct()
+	{
+		parent::__construct();
+	}
+
+	public function index()
+	{
+		redirect('design/card');
+	}
+
 	//명함
 	public function card()
 	{

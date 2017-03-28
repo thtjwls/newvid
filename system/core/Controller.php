@@ -92,61 +92,6 @@ class CI_Controller {
 	{
 		return self::$instance;
 	}
-
-	public function _remap( $method, $params = array() )
-	{
-
-		$url = explode('/',$_SERVER['PHP_SELF']);
-
-		$path_name = array(
-			'home'			=> 'HOME',
-			'intro'			=> '소개',
-			'organization' 	=> '조직도',
-			'environment' 	=> '개발환경',
-			'ci' 			=> 'CI',
-			'web'			=> 'WEB',
-			'shoppingmall'	=> '쇼핑몰',
-			'homepage'		=> '홈페이지',
-			'solustion'		=> '솔루션',
-			'publics'		=> '공공기관',
-			'webbanner'		=> '웹배너',
-			'design'		=> '디자인',
-			'card'			=> '명함',
-			'leaflet'		=> '전단지',
-			'plancart'		=> '현수막',
-			'signboard'		=> '간판',
-			'banner'		=> '배너',
-			'sticker'		=> '스티커',
-			'brochure'		=> '브로슈어',
-			'blog'			=> '블로그',
-			'illust'		=> '일러스트',
-			'photoshop'		=> '포토샵',
-			'program'		=> 'PHP/JSP',
-			'js'			=> 'Javascript',
-			'html'			=> 'HTML5/CSS3',
-			'board'			=> '게시판',
-			'notice'		=> '공지사항',
-			'bbs'			=> '자유게시판',
-			'qna'			=> 'Q&A',
-			'culture'		=> '문화',
-			'lecture'		=> '강의'
-			);
-
-		$this->load->view('header_v', 
-			array(
-				'path_name'=>$path_name
-			)
-		);
-
-		if ( method_exists( $this , $method ) ) {
-
-			call_user_func_array(array($this, $method), $params);
-
-		}else{
-			echo 'URL을 잘못 입력하셨습니다.';
-		}
-
-		$this->load->view('footer_v');
-	}
+	
 
 }

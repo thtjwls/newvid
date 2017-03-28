@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Web extends CI_Controller {
+class Web extends MY_Controller {
 
 	public function __construct()
 	{
@@ -11,7 +11,7 @@ class Web extends CI_Controller {
 	//기본페이지
 	public function index()
 	{
-		$this->shoppingmall();
+		redirect('web/shoppingmall');
 	}
 	
 	//쇼핑몰
