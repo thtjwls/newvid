@@ -28,9 +28,9 @@
 		</a>
 		<nav class="nav">
 			<ul class="header_nav list_inline">
-				<li class="menu_title active">
+				<li class="menu_title">
 					<a href="/home/intro">Home</a>
-					<ul class="sub_menu">
+					<ul class="sub_menu clearfix" id="menu1">
 						<li>
 							<a href="/home/intro">소개</a>
 						</li>

@@ -79,6 +79,8 @@ header nav.nav ul.login_nav li a {
 	font-size:13px;
 }
 
+
+/*
 header nav.nav .header_nav:hover ul.sub_menu {
 	height: 300px;
 	opacity: 1;			
@@ -95,6 +97,7 @@ header nav.nav .header_nav:hover ul.sub_menu {
 
 }
 /* sub_menu */
+/*
 ul.sub_menu {
 	z-index:999999;
 	position: absolute;
@@ -135,6 +138,25 @@ header nav.path_nav {
 	color: #000;
 	font-size: 15px;
 }
+*/
+
+header {
+	box-shadow:1px 0 1px 0px gray;
+}
+
+header nav.nav ul.header_nav li.menu_title ul.sub_menu li{
+	float:left;
+	font-size:15px;
+}
+
+header nav.nav  ul.header_nav li.menu_title ul.sub_menu#menu1 {
+	display:block;
+}
+
+
+ul.sub_menu {
+	display:none;
+}
 
 div.path_info {
 	width:100%;
@@ -152,6 +174,7 @@ div.path_info h2 {
 	padding:0 0 10px 0;
 /*	background-color:#000; */
 }
+
 
 div.path_info .path_detail {
 	float:right;
