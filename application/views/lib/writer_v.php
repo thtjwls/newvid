@@ -1,3 +1,4 @@
+<article>
 <div class="editor_wrap">
 <form action="" method="post">
 	<h3 class="page-title">
@@ -31,3 +32,4 @@
 		}
 	</script>
 </div>
+</article>

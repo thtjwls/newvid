@@ -1,3 +1,4 @@
+<article>
 <div class="qna_wrap">
 	<ul class="qna_table">
 		<li class="thead tr">
@@ -50,3 +51,4 @@
 		</li>
 	</ul>
 </div>
+</article>

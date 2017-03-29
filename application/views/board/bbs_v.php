@@ -1,3 +1,4 @@
+<article>
 <div class="board_bbs">
 	<ul class="table">
 		<li class="tr thead">
@@ -80,3 +81,4 @@
 		</div>
 	</div>		
 </div>
+</article>

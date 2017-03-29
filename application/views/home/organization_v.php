@@ -1,3 +1,4 @@
+<article>
 <div class="organ">
 	<span class="line"></span>
 	<span class="line dept"></span>
@@ -31,3 +32,4 @@
 		</div>
 	</div>
 </div>
+</article>

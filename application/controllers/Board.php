@@ -16,6 +16,7 @@ class Board extends MY_Controller {
 	//공지사항
 	public function notice()
 	{
+		parent::cateview(array('Board','공지사항'));
 		$this->load->view('board/notice_v');
 	}
 
@@ -27,11 +28,11 @@ class Board extends MY_Controller {
 		switch ( $mod ) {
 			
 			case 'list' :
-			
+				parent::cateview(array('Board','자유게시판'));
 				$this->load->view('board/bbs_v',array('mod'=>$mod));
 				break;
 			case 'write' : 
-
+				parent::cateview(array('Board','자유게시판','작성하기'));
 				$this->load->view('lib/writer_v',array( 'mod'=>$mod, 'category'=>$category ));
 				break;
 			default :
@@ -43,18 +44,21 @@ class Board extends MY_Controller {
 	//qna
 	public function qna()
 	{
+		parent::cateview(array('Board','Q&A'));
 		$this->load->view('board/qna_v');
 	}
 
 	//문화
 	public function culture()
 	{
+		parent::cateview(array('Board','문화게시판'));
 		$this->load->view('board/culture_v');
 	}
 
 	//강의
 	public function lecture()
 	{
+		parent::cateview(array('Board','강의'));
 		$this->load->view('board/lecture_v');
 	}
 

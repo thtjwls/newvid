@@ -1,18 +1,12 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Pathinfo
-{
+
+class Category
+{	
 	public function __construct()
 	{
 		
 	}
-
-	public function patharray()
-	{
-
-	}
-	
-		
 }
 ?>

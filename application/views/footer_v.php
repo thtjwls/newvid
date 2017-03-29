@@ -1,4 +1,4 @@
-	</article>
+	
 	<footer class="clearfix">
 		<div class="footer_container clearfix">
 			<h4 class="footer_logo">

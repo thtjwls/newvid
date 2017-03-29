@@ -1,3 +1,4 @@
+<article>
 <div class="ci_page">
 	<div class="row">
 		<!-- ci page title -->
@@ -48,3 +49,4 @@
 		</div>
 	</div>
 </div>
+</article>

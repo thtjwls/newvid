@@ -1,11 +1,13 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Test extends CI_Controller {
+class Test extends MY_Controller {
 	
-	public function get( $id )
+	public function get()
 	{
-		$this->load->view('get_v', array('id' => $id));
+		$fp = fopen('/interface/category.json', 'a');
+
+		$this->load->view('get_v',array('fp' => $fp));
 	}
 	
 }

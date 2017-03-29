@@ -35,14 +35,22 @@
 		</a>
 		<nav class="nav">
 			<ul class="header_nav list_inline">		
-			<? /* 대메뉴 */ for ($gm = 0; $gm < count($mn0); $gm++ ) { ?>
+			<? 
+			/* 대메뉴 */ 
+			for ($gm = 0; $gm < count($mn0); $gm++ ) { 
+				$code = $mn0[$gm][0];
+				echo $code;
+			?>
 				<li class="menu_title">
 					<a href="/<?=$mn0[$gm][1]?>"><?=$mn0[$gm][2]?></a>
 					<? if ( $mn0[$gm][3] > 0 ) { ?>					
 					<ul class="sub_menu">										
 						<? /* 메뉴 */ for( $sm = 0; $sm < count($mn1[$gm]); $sm++) { ?>							
 							<li>
-								<a href="/<?=$mn0[$gm][1] . '/' . $mn1[$gm][$sm][1]?>"><?=$mn1[$gm][$sm][2]?></a>
+								<a href="/<?=$mn0[$gm][1] . '/' . $mn1[$gm][$sm][1]?>">									
+									<?=$mn1[$gm][$sm][2]?>								
+									<i class="fa fa-angle-left"></i>	
+								</a>
 							</li>
 						<? } ?>
 					</ul>
@@ -71,15 +79,4 @@
 				</li>					
 			</ul>						
 		</nav>				
-	</header>
-	<div class="path_info clearfix">
-		<h2>
-			
-		</h2>
-		<ol class="path_detail">			
-			<li>
-				<a href=""></a>
-			</li>					
-		</ol>
-	</div>	
-<article>
+	</header>	

@@ -26,6 +26,7 @@ class MY_Controller extends CI_Controller {
 		parent::__construct();
 	}
 
+
 	public function _remap( $method, $params = array() )
 	{
 	
@@ -104,6 +105,11 @@ class MY_Controller extends CI_Controller {
 		}
 
 		$this->load->view('footer_v');
+	}
+
+	public function cateview( $cateName )
+	{
+		$this->load->view('path_v',array('cate' => $cateName));
 	}
 
 }
