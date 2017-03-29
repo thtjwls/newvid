@@ -10,7 +10,8 @@ class Blog extends MY_Controller {
 
 	public function index()
 	{
-		redirect('/blog/illust','refresh',301);
+		//redirect('/blog/illust','refresh',301);
+		$this->total();
 	}
 	
 	public function illust()
@@ -41,5 +42,11 @@ class Blog extends MY_Controller {
 	{
 		parent::cateview(array('Blog','HTML/CSS'));
 		$this->load->view('blog/html_v');
+	}
+
+	public function total()
+	{
+		parent::cateview(array('Blog','블로그'));
+		$this->load->view('blog/total_v');
 	}
 }

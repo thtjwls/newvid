@@ -183,3 +183,35 @@ ul.pagination li a {
 ul.pagination li a:hover {
 
 }
+
+ul.table {
+	display:table;
+}
+
+ul.table li.tr {
+	display:table-row;
+	
+}
+
+ul.table li.tr.thead {
+	background-color: #FA4C4C;
+	color:#FFF;
+	
+}
+
+ul.table li.tr.thead span.td {
+	border:0;
+}
+
+ul.table li.tr span.td {
+	display:table-cell;
+	font-size:15px;
+	font-weight: 300;	
+	padding:8px;
+	border-bottom:1px solid #DCDCDC;
+}
+
+ul.table li.tr span.td span.title {
+	color:#3C46FC;
+	font-weight: 500;
+}

@@ -1,16 +1,25 @@
-<div class="card_wrap">
-	<div class="card_inner_navigation">
-		<nav class="nav">
+<article>
+	<div class="card_wrap">
+		<div class="page-header">
+			<div class="header-image">
+				<img src="#" alt="타이틀 이미지 1100x300" width="100%" height="300px">
+			</div>
+		</div>
+		<div class="page-section">
 			<ul>
 				<li>
-					<a href=""></a>
+					MENU1
+				</li>
+				<li>
+					MENU1
+				</li>
+				<li>
+					MENU1
+				</li>
+				<li>
+					MENU1
 				</li>
 			</ul>
-		</nav>
+		</div>
 	</div>
-	<section>
-		<ul class="image-list clearfix">
-			
-		</ul>		
-	</section>	
-</div>
+</article>

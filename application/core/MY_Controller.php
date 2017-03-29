@@ -75,7 +75,7 @@ class MY_Controller extends CI_Controller {
 			array('302000','photoshop','포토샵',0),
 			array('303000','program','PHP/JSP',0),
 			array('304000','js','Javascript',0),
-			array('305000','html','HTML5/CSS3',0)
+			array('305000','html','HTML5/CSS3',0)			
 		);
 		
 		$mn1[4] = array(

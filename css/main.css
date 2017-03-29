@@ -81,7 +81,7 @@ header nav.nav ul.header_nav li.menu_title > a {
 header nav.nav ul.login_nav {
 	display: inline-block; 
 	vertical-align: middle;
-	padding:35px 0;
+	padding:45px 0;
 	font-size: 18px;
 	width: 40%;
 	text-transform: uppercase;
@@ -153,73 +153,6 @@ ul.sub_menu li a {
 	-o-transition-duration: 0.3s;
 }
 
-
-header nav.nav  ul.header_nav li.menu_title ul.sub_menu#menu1 {
-	
-}
-
-/*
-header nav.nav .header_nav:hover ul.sub_menu {
-	height: 300px;
-	opacity: 1;			
-	top: 34px;
-	
-	transition-duration: 0.4s;	
-	-webkit-transition-duration: 0.4s;
-	-moz-transition-duration: 0.4s;
-	-o-transition-duration: 0.4s;	
-	transition-property: opacity top;
-	-webkit-transition-property: opacity top;
-	-moz-transition-property: opacity top;
-	-o-transition-property: opacity top;
-
-}
-/* sub_menu */
-/*
-ul.sub_menu {
-	z-index:999999;
-	position: absolute;
-	top: 34px;
-	overflow: hidden;
-	background: rgba(255,44,43,0.7);	
-	display: block;
-	width: 100%;		
-	height: 1px;
-	opacity: 0;		
-	transition-duration: 0.4s;	
-	-webkit-transition-duration: 0.4s;
-	-moz-transition-duration: 0.4s;
-	-o-transition-duration: 0.4s;	
-	transition-property: opacity top;
-	-webkit-transition-property: opacity top;
-	-moz-transition-property: opacity top;
-	-o-transition-property: opacity top;
-}
-
-
-ul.sub_menu li {
-	width: 100%;
-	font-size: 15px;	
-}
-
-ul.sub_menu li a {	
-	color: #FFF;	
-}
-
-ul.sub_menu li a:hover {
-	display: block;
-	background-color: #ff5555;	
-}
-
-header nav.path_nav {
-	margin:20px 0;
-	color: #000;
-	font-size: 15px;
-}
-*/
-
-
-
 div.path_info {
 	width:100%;
 	min-width:1100px;
@@ -254,6 +187,7 @@ div.path_info .path_detail li a {
 	width:100px;
 	height:30px;
 	line-height:30px;
+	text-transform: uppercase;
 }
 
 div.path_info .path_detail li:not(:last-of-type) a {
@@ -558,6 +492,120 @@ div.path_info .path_detail li:last-of-type a {
 
 
 /* end design card page */
+
+
+/* culture */
+div.culture_wrap {
+	width:80%;
+	min-width:1100px;
+	margin:auto;
+	margin-bottom: 300px;
+}
+
+div.culture_wrap ul {
+	height:300px;	
+}
+
+div.culture_wrap ul > li {
+	padding:15px;
+	box-shadow: 2px 3px 10px 3px gray;
+	background: #FFF;
+	height:100%;
+	overflow: hidden;	
+}
+
+div.culture_wrap ul > li > dl {
+	height:100%;
+	position:relative;
+}
+
+div.culture_wrap ul > li > dl dt {
+	float:left;
+	width:15%;
+	height:100%;	
+}
+
+div.culture_wrap ul > li > dl dt div.culture_title_image {
+	height:100%;
+	overflow: hidden;
+	margin-right:20px;
+}
+
+div.culture_wrap ul > li > dl dt div.culture_title_image img {
+	width:100%;
+	height:100%;
+}
+
+div.culture_wrap ul > li > dl dd {
+	float:left;
+	width:85%;	
+	height:;
+	overflow: hidden;
+}
+
+div.culture_wrap ul > li > dl dd h4.title {
+	float:left;
+	margin-bottom:15px;
+	font-size:24px;
+	font-weight: 300;
+	width:100%;
+}
+
+div.culture_wrap ul > li > dl dd h4.title a {
+	float:left;
+	font-weight: 700;
+}
+
+div.culture_wrap ul > li > dl dd h4.title span.time {
+	float:right;
+	font-size:14px;
+}
+
+div.culture_wrap ul > li > dl dd p.content-text {
+	float:left;
+	font-size:18px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	line-height: 25px;
+	height: 130px;
+	overflow: hidden;
+	text-overflow: ellipsis;	
+	color:#6B6B6B;
+}
+
+div.culture_wrap ul > li > dl dd button.likes {
+	position: absolute;
+	bottom:0;
+	right:0;
+	background-color:#F23769;
+	padding:12px 15px;
+	font-size: 15px;
+	color:#FFF;	
+	border:0;
+	cursor: pointer;
+	vertical-align: middle;	
+	border-radius: 10px;
+}
+
+div.culture_wrap ul > li > dl dd button.comment {
+	position: absolute;
+	bottom:0;
+	right:90px;
+	background-color:#19D42C;
+	padding:12px 15px;
+	font-size: 15px;
+	color:#FFF;	
+	border:0;
+	cursor: pointer;
+	vertical-align: middle;	
+	border-radius: 10px;
+}
+
+div.culture_wrap ul > li > dl dd button i.fa {
+	margin-right:5px;
+}
+
+/* end culture */
 
 
 /**
