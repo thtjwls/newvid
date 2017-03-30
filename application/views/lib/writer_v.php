@@ -14,8 +14,8 @@
 	<input type="button" name="" class="btn back" value="목록"/>
 	<input type="submit" name="" class="btn" value="저장">
 	<!-- hidden field -->
-	<input type="hidden" name="ck_mod" value="<?=$mod?>"/>
-	<input type="hidden" name="ck_category" value="<?=$category?>"/>
+	<input type="hidden" name="ck_mod" value=""/>
+	<input type="hidden" name="ck_category" value=""/>
 	
 </form>	
 	<!-- ckeditor script -->

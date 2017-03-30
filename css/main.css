@@ -24,7 +24,7 @@ li { list-style-type: none; }
 
 
 header { 
-	width: 100%; 
+	width: 100%; /*  */
 	min-width: 1100px;
 	padding: 0px 25px;
 	font-size: 0; 
@@ -35,7 +35,7 @@ header {
 	-moz-box-shadow:1px 0 1px 1px gray;
 	-o-box-shadow:1px 0 1px 1px gray;
 	filter: progid:DXImageTransform.Microsoft.Shadow(color=gray, Direction=135, Strength=6);  /* IE */
-	position: relative; 
+	position: relative;
 }
 header h1.logo { display: inline-block;vertical-align: middle;width: 10%; }
 header h1.logo a {}
@@ -460,7 +460,7 @@ div.path_info .path_detail li:last-of-type a {
 	margin-bottom: 30px;
 }
 
-.editor_wrap .ckeditr_division {
+.editor_wrap .ckeditor_division {
 	margin-bottom: 10px;
 }
 
@@ -498,8 +498,7 @@ div.path_info .path_detail li:last-of-type a {
 div.culture_wrap {
 	width:80%;
 	min-width:1100px;
-	margin:auto;
-	margin-bottom: 300px;
+	margin:auto auto 300px auto;
 }
 
 div.culture_wrap ul {

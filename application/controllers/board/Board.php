@@ -21,6 +21,7 @@ class Board extends MY_Controller {
 	}
 
 	//자유게시판
+    /*
 	public function bbs( $mod = 'list' )
 	{
 		$category = $this->uri->segment(2);
@@ -40,6 +41,7 @@ class Board extends MY_Controller {
 		}
 		
 	}
+    */
 	
 	//qna
 	public function qna()

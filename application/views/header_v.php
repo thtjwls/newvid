@@ -34,7 +34,7 @@
 			<i class="fa fa-align-justify"></i>			
 		</a>
 		<nav class="nav">
-			<ul class="header_nav list_inline">		
+			<ul class="header_nav list_inline gnb">
 			<? 
 			/* 대메뉴 */ 
 			for ($gm = 0; $gm < count($mn0); $gm++ ) { 
