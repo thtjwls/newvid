@@ -36,11 +36,11 @@ class MY_Controller extends CI_Controller {
 		
 		//대메뉴		
 		$mn0 = array(
-			array('000000','home','HOME',4),
-			array('100000','web','Web',5),
-			array('200000','design','Design',7),
-			array('300000','blog','Blog',5),
-			array('400000','board','Board',5)
+			array('000000','home/intro','HOME',4),
+			array('100000','web/homepage','Web',5),
+			array('200000','design/card','Design',7),
+			array('300000',"blog/illust",'Blog',7),
+			array('400000','board/notice','Board',3)
 		);
 
 		//중메뉴
@@ -75,15 +75,15 @@ class MY_Controller extends CI_Controller {
 			array('302000','photoshop','포토샵',0),
 			array('303000','program','PHP/JSP',0),
 			array('304000','js','Javascript',0),
-			array('305000','html','HTML5/CSS3',0)			
+			array('305000','html','HTML5/CSS3',0),
+            array('306000','culture','문화',0),
+            array('307000','lecture','강의',0)
 		);
 		
 		$mn1[4] = array(
 			array('401000','notice','공지사항',0),
 			array('402000','bbs','자유게시판',0),
-			array('403000','qna','Q&A',0),
-			array('404000','culture','문화',0),
-			array('405000','lecture','강의',0)
+			array('403000','qna','Q&A',0)
 		);
 		
 

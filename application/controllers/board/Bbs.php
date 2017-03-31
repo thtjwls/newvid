@@ -28,7 +28,14 @@ class Bbs extends MY_Controller
     public function write()
     {
         //parent::cateview(array('Board','자유게시판','작성하기'));
+        parent::cateview(array('Board','자유게시판'));
         $this->load->view('lib/writer_v');
+    }
+
+    public function view()
+    {
+        parent::cateview(array('Board','자유게시판'));
+        $this->load->view('lib/view_v');
     }
 
 }

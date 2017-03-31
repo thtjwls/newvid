@@ -6,7 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * Date: 2017-03-30
  * Time: 오후 6:43
  */
-class Culture extends MY_Controller
+class Lecture extends MY_Controller
 {
     public function __construct()
     {
@@ -14,11 +14,11 @@ class Culture extends MY_Controller
         parent::__construct();
     }
 
-    //문화
+    //강의
     public function index()
     {
-        parent::cateview(array('Board','문화게시판'));
-        $this->load->view('board/culture_v');
+        parent::cateview(array('blog','강의'));
+        $this->load->view('blog/lecture_v');
     }
-    
+
 }

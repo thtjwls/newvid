@@ -22,6 +22,7 @@ class Qna extends MY_Controller
 
     public function lists()
     {
+        parent::cateview(array('Board','Q&A'));
         $this->load->view('board/qna_v');
     }
 
