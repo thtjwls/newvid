@@ -1,42 +1,21 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <style>
-        header {
-            background-color: #9B99E8;
-            margin: 0px;
-        }
-        section#main {
-            display: table-cell;
-            background-color: #30DCA3;
-            padding: 200px;
-            text-align: right;
-        }
-        nav {
-            display: table-cell;
-            background-color: #ED5974;
-            padding: 75px;
-            text-align: right;
-        }
-        footer {
-            background-color: #971111;
-            padding: 5px;
-            margin: 0px 0px 0px 0px;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+	<style type="text/css">
+		.wrap {
+			width:100px;
+			height:100px;
+			box-shadow:0 5px 5px 2px;
+		}
+	</style>
 </head>
 <body>
-<header><h1>header</h1></header>
-<nav>navigation menu
-    <ul>
-        <li>menu1</li>
-    </ul>
-</nav>
-<section id="main">
-    <article><h1>section</h1></article>
-    <article>article</article>
-    <article>article</article>
-</section>
-<footer>footer</footer>
+<div class="wrap"></div>
+
 </body>
 </html>

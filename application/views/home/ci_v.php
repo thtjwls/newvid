@@ -1,4 +1,4 @@
-<article>
+<article class="contents">
 <div class="ci_page">
 	<div class="row">
 		<!-- ci page title -->

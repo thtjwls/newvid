@@ -30,8 +30,8 @@
         <nav class="nav gnb">
             <ul>
                 <li>
-                    <a href="/home/intro">home</a>
-                    <div class="sub_menu">
+                    <a href="/home/intro">home</a>     
+					<div class="sub_menu">
                         <div class="sub_menu__item">
                             <div class="sub_menu__container clearfix">
                                 <h3 class="title">
@@ -184,10 +184,10 @@
         <nav class="nav my-menu">
             <ul>
                 <li>
-                    <a href="">login</a>
+                    <a href="/members/user/login_form">login</a>
                 </li>
                 <li>
-                    <a href="">membership</a>
+                    <a href="/members/user/membership">membership</a>
                 </li>
             </ul>
         </nav>

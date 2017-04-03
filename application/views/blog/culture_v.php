@@ -1,4 +1,4 @@
-<div class="culture_wrap">
+<div class="culture_wrap contents">
 	<ul class="clearfix">
         <? for ($i = 0; $i < 17; $i++) { ?>
         <li class="list-wrap">
