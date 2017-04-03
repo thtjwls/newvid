@@ -10,6 +10,7 @@ html,body {
 
 article {
 	min-height: 70%;
+	padding-top:100px;
 }
 
 body {
@@ -32,12 +33,34 @@ li { list-style-type: none; }
 /* header start */
 header {
 	width:100%;
-	position: relative;
+	position: fixed;
 	min-width:1100px;/* 임시 스타일 */
 	border-bottom:1px solid #C8C8C8;
 	height:70px;
-	margin-bottom:30px;
 	background: #ff2c2c;
+	z-index: 9999;
+	transition-duration: 0.3s;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+}
+
+header.fixHeader {
+	background: #FFF;
+	color:#828282;
+	box-shadow: 0px 5px 12px 1px #E2E2E2;
+	transition-duration: 0.3s;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+}
+
+header.fixHeader h1 {
+	display: none;
+}
+
+header.fixHeader a {
+	color:#828282 !important;
 }
 
 header h1 {
@@ -130,6 +153,7 @@ div.sub_menu {
 	font-size:18px;
 	color:#575757;
 	padding:15px;
+	text-align:center;
 }
 
 .sub_menu__container ul li a:hover {
@@ -175,6 +199,7 @@ nav.gnb > ul > li:hover > a {
 div.path_info {
 	width:100%;
 	min-width:1100px;
+	padding-top:100px;
 	margin-bottom:30px;
 }
 
@@ -513,7 +538,7 @@ div.path_info .path_detail li:last-of-type a {
 /* end design card page */
 
 
-/* culture */
+/* culture 문화 이지훈 */
 .culture_wrap {
 	width:1200px;
 	margin:auto;
@@ -581,6 +606,23 @@ div.path_info .path_detail li:last-of-type a {
 	float:right;
 	color:#767676;
 }
+
+.culture_wrap > .row .actions .actions-btn {
+	border:0;
+	background: #0a6aa1;
+	color:#FFF;
+	padding:15px 22px;
+	float:right;
+	margin-right:10px;
+	font-size:22px;
+	font-weight: 300;
+	cursor: pointer;
+	transition-duration: 0.3s;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+}
+.culture_wrap > .row .actions .actions-btn:hover { background:#4163EB; }
 
 .likes .fa-heart {
 	color:#F82460;
@@ -743,6 +785,20 @@ div.path_info .path_detail li:last-of-type a {
 	color:#BDBDBD;
 	margin:15px auto;
 }
+
+/* 로그인 login */
+.login-wrap { width:600px; margin:auto auto; }
+.login-wrap h3{ text-transform:uppercase; text-align:center; }
+.login-wrap .row { width:100%; margin-bottom:30px; }
+.login-wrap .login-contents label { display:none; }
+.login-wrap .login-contents .input-area { width:70%;margin:auto; }
+.login-wrap .login-contents input { width:100%; padding:15px; background:none;
+	border:1px solid #B1B1B1;}
+.login-wrap .login-contents .input-group { position:relative; margin-bottom:10px; }
+.login-wrap .login-contents .input-group > .fa { position: absolute; right:12px; top:12px; color:#B1B1B1;}
+.login-wrap .login-contents p.helper { padding:10px;width:70%;margin:auto; display: none;}
+.login-wrap .login-actions { width:70%;margin-right:auto;margin-left:auto; }
+.login-wrap .login-actions .submit-btn { width:100%;border:0; background-color:#ff2c2c;color:#FFF; font-size:21px; font-weight:300; text-transform:uppercase; padding:10px 0; cursor: pointer; }
 
 /* footer css daye */
 footer{

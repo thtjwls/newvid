@@ -59,6 +59,8 @@ article {
 	margin-bottom:100px;
 }
 
+article.width-1200 { width:1200px; }
+
 .board_bbs .actions {
 	margin:30px auto;
 }

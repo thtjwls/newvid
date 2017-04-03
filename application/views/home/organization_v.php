@@ -1,4 +1,4 @@
-<article>
+<article class="contents">
 <div class="organ">
 	<span class="line"></span>
 	<span class="line dept"></span>

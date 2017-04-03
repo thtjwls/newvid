@@ -16,6 +16,7 @@ class User extends MY_Controller {
 	//로그인
 	public function login_form()
 	{
+        parent::cateview(array('MEMBERSHIP','로그인'));
 		$this->load->view('/user/login_v.php');
 	}
 
@@ -25,4 +26,10 @@ class User extends MY_Controller {
 		parent::cateview(array('MEMBERSHIP','회원가입'));
 		$this->load->view('/user/member_add_v');
 	}
+
+	//아이디 , 비밀번호 찾기
+    public function lose()
+    {
+        $this->load->view('/user/lose_v');
+    }
 }

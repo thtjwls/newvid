@@ -1,16 +1,18 @@
+/* 화면 레이아웃 이벤트 */
 $(window).on('load resize',function () {
 var
 	win			= $(window),
 	header		= $('header'),
 	contents	= $('.contents'),
 	footer		= $('footer'),
-	body		= $('body');
+	body		= $('body'),
+	scTop		= $(this).scrollTop();
 
 var
 	initHeight	= function () {
 		return 	win.height() - header.height() - footer.height() - 31;
 	} 
-	
+
 
 
 	//alert(contents.height() + '\n' + initHeight() );
@@ -31,3 +33,14 @@ var
 	}
 
 });
+
+$(window).on('scroll',function () {
+	var sc 		= $(this).scrollTop(),
+		header 	= $('header');
+
+    if ( sc > header.height() ) {
+        header.addClass('fixHeader');
+    } else {
+        header.removeClass('fixHeader');
+    }
+})

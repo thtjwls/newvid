@@ -1,4 +1,4 @@
-<article>
+<article class="contents">
 <div class="board_bbs">
 	<ul class="table">
 		<li class="tr thead">
