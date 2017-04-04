@@ -8,52 +8,24 @@
     <title>Document</title>
 </head>
 <body>
-<style>
+<?
+define("HOST","localhost");
+define("PASSWORD","ekdP0919!");
+define("USER","thtjwls");
+define("DB","thtjwls");
 
-</style>
-    <bold>
-        컨트롤러 구조
-    </bold>
-    <ul>
-        <li>
-            CI_Controller (system/core)
-            <ul>
-                <li>
-                    MY_Controller ( core )
-                    <ul>
-                        <li>
-                            Home ( core )
-                            <ul>
-                                <li>
-                                    Intro ( controller )
-                                </li>
-                                <li>
-                                    organization ( controller )
-                                </li>
-                                <li>
-                                    environment ( controller )
-                                </li>
-                                <li>
-                                    ci ( controller )
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            Web ( core )
-                        </li>
-                        <li>
-                            Design ( core )
-                        </li>
-                        <li>
-                            Blog ( core )
-                        </li>
-                        <li>
-                            Board ( core )
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-    </ul>
+$mysqli = new mysqli(HOST,USER,PASSWORD,DB);
+
+if ( $mysqli->connect_errno ) {
+    die('Connect error : ' . $mysqli->connect_error);
+}
+
+$sql = "SELECT * FROM `my_chart_data`";
+$sql2 = "SHOW TABLES LIKE `thtjwls`";
+$result = $mysqli->query($sql2);
+while ( $row = $result->fetch_object()) {
+    print_r($row);
+}
+?>
 </body>
 </html>

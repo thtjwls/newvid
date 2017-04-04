@@ -7,7 +7,7 @@
 			<div class="row_group">
 				<div class="inDiv">
 					<label for="mem_id">아이디</label>
-					<input type="text" placeholder="아이디" name="mem_id" id="mem_id"/>
+					<input type="text" placeholder="아이디" name="mem_id" id="mem_id" onkeypress="idChk();" />
 					<span class="input_icon"></span>
 					<p class="help-text"></p>
 				</div>
@@ -82,18 +82,19 @@
 				<input type="button" href="javascript:void();" onclick="useradd();" class="submit-btn" value="회원가입"/>
 			</div>
 		</fieldset>
-        <input type="hidden" id="id_chk" value="false">
-        <input type="hidden" id="pass_chk" value="false">
+        <input type="text" id="id_chk" value="false">
+        <input type="text" id="pass_chk" value="false">
 	</form>
 </div>
 <script>
+
     $(function () {
         useradd();
     })
 
     function useradd()
     {
-        var formContainer       = $('#useraddForm'),
+        var formContainer       = $("#useraddForm"),
             id                  = $("#mem_id"),
             password            = $("#mem_password"),
             password_confirm    = $("#mem_password_confirm"),
@@ -106,14 +107,20 @@
             tel                 = $("#mem_tel"),
             id_chk              = $("#id_chk"),
             pass_chk            = $("#pass_chk");
-
-
-            id.chkField();
     }
 
     $.fn.extend({
-        chkField : function () {
+        chkField : function (color,text) {
+            this.click(function () {
+                var parent = $(this).parent();
 
+                $(parent).children(".help-text").html(text);
+            })
         }
     })
+
+    function idChk()
+    {
+        console.log(this.valueOf());
+    }
 </script>

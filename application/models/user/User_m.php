@@ -6,6 +6,7 @@ class User_m extends CI_Model {
     public function __construct()
     {
         parent::__construct();
+        $this->dbforge();
     }
 
     public function dbforge()
@@ -23,6 +24,16 @@ class User_m extends CI_Model {
 
         $this->db->query($sql,TRUE);
         $this->db->result();
+    }
+
+    public function members()
+    {
+
+    }
+
+    public function membersTable()
+    {
+
     }
 
 }

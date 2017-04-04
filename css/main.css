@@ -691,6 +691,11 @@ div.path_info .path_detail li:last-of-type a {
 	width:100%;
 	border-bottom:1px solid #E4E4E4;
 }
+
+.members-add-wrap fieldset .row_group .inDiv .help-text { font-size:14px; padding:2px 5px; display:none; }
+.members-add-wrap fieldset .row_group .inDiv .help-text.danger { color: #ff2c2c; }
+.members-add-wrap fieldset .row_group .inDiv .help-text.success { color: #0a6aa1; }
+
 .members-add-wrap fieldset .row_group .inDiv:not(.birthdayDiv) input{
 	width:80%;
 	padding:15px 10px;
