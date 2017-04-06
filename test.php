@@ -10,7 +10,7 @@
 <body>
 <?
 
-echo 1;
+echo $_SERVER['DOCUMENT_ROOT'];
 ?>
 </body>
 </html>
