@@ -109,16 +109,6 @@
             pass_chk            = $("#pass_chk");
     }
 
-    $.fn.extend({
-        chkField : function (color,text) {
-            this.click(function () {
-                var parent = $(this).parent();
-
-                $(parent).children(".help-text").html(text);
-            })
-        }
-    })
-
     function idChk()
     {
         console.log(this.valueOf());

@@ -26,6 +26,8 @@ $result = $mysqli->query($sql2);
 while ( $row = $result->fetch_object()) {
     print_r($row);
 }
+
+echo 1;
 ?>
 </body>
 </html>
